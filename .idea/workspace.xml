@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e931d87-0a3d-4de5-8afd-15e2c69fc0c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Image_Processing/BlurringAndSmoothing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image_Processing/Gradients.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image_Processing/Histograms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image_Processing/MorphologicalOperators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image_Processing/Thresholding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources.sketch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Test_Script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Test_Script.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,18 +12,61 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="imagine-ocr" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scripts/Test_Script.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/Image_Preprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" selection-start-line="11" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="252">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/Tensor_Flow_Example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
               <folding>
-                <element signature="e#16#26#0" expanded="true" />
+                <element signature="e#5#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret selection-end-line="3" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Logo.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -34,14 +74,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>thres</find>
+      <find>opt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -55,8 +96,13 @@
         <option value="$PROJECT_DIR$/Scripts/Image_Processing/Gradients.py" />
         <option value="$PROJECT_DIR$/Scripts/Image_Processing/Thresholding.py" />
         <option value="$PROJECT_DIR$/Scripts/Image_Processing/Master.py" />
-        <option value="$PROJECT_DIR$/Scripts/Test_Script.py" />
         <option value="$PROJECT_DIR$/Test.ipynb" />
+        <option value="$PROJECT_DIR$/Scripts/Test_Script.py" />
+        <option value="$PROJECT_DIR$/Scripts/Image_Preprocessing.py" />
+        <option value="$PROJECT_DIR$/Scripts/Model_Examples/CNN_Custom_Dataset.py" />
+        <option value="$PROJECT_DIR$/Scripts/Tensor_Flow_Example.py" />
+        <option value="$PROJECT_DIR$/Scripts/Model_Examples/Tensor_Flow_Example.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -75,7 +121,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -93,43 +139,29 @@
             <path>
               <item name="imagine-ocr" type="b2602c69:ProjectViewProjectNode" />
               <item name="imagine-ocr" type="462c0819:PsiDirectoryNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="imagine-ocr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Coding/imagine-ocr" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="imagine-ocr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Coding/imagine-ocr" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Scripts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="imagine-ocr" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Coding/imagine-ocr" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Scripts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Image_Processing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowPython Console.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -139,6 +171,12 @@
         <option name="myModuleName" value="imagine-ocr" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Scripts/Model_Examples" />
+      <recent name="$PROJECT_DIR$/Scripts/Image_Processing" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -195,11 +233,24 @@
       <workItem from="1563466465971" duration="529000" />
       <workItem from="1563467111750" duration="539000" />
       <workItem from="1563467684484" duration="479000" />
+      <workItem from="1563474582179" duration="147000" />
+      <workItem from="1563474733303" duration="369000" />
+      <workItem from="1563479244817" duration="474000" />
+      <workItem from="1563479731189" duration="490000" />
+      <workItem from="1563535424939" duration="472000" />
+      <workItem from="1563535925578" duration="1898000" />
+      <workItem from="1563538467386" duration="1826000" />
+      <workItem from="1563540481308" duration="74000" />
+      <workItem from="1563540600691" duration="6374000" />
+      <workItem from="1563550291564" duration="70000" />
+      <workItem from="1563550392639" duration="679000" />
+      <workItem from="1563551808624" duration="198000" />
+      <workItem from="1563552173462" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8031000" />
+    <option name="totallyTimeSpent" value="21335000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -212,61 +263,50 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17152777" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Jupyter" visible="true" weight="0.32934132" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15164521" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.12160229" />
+      <window_info id="Favorites" order="2" show_stripe_button="false" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.33508542" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32923833" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.514742" side_tool="true" weight="0.34263232" />
+      <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32923833" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32934132" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Jupyter" order="12" weight="0.33772454" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" side_tool="true" weight="0.3298611" />
-      <window_info anchor="right" id="SciView" order="1" sideWeight="0.25508982" weight="0.5090278" />
-      <window_info anchor="right" id="Key Promoter X" order="2" weight="0.3297568" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Python Console" order="7" sideWeight="0.7449102" side_tool="true" weight="0.5708333" />
+      <window_info anchor="right" id="SciView" order="1" sideWeight="0.48525798" weight="0.46852645" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="5" sideWeight="0.62588906" side_tool="true" weight="0.4068768" />
+      <window_info anchor="right" id="Python Console" order="6" sideWeight="0.514742" side_tool="true" weight="0.46852645" />
+      <window_info anchor="right" id="Database" order="7" show_stripe_button="false" sideWeight="0.514742" side_tool="true" weight="0.34263232" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imagine-ocr.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/imagine-ocr.yml" />
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-49" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Image.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/CNN_Custom_Dataset.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Image.jpg" />
     <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/TensorFlowExample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -311,16 +351,8 @@
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/marcoistasy.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/Keras_Basics.h5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/cifar10.h5">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/Keras_Basics.h5" />
+    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/cifar10.h5" />
     <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/CNN_Keras_CIFAR.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1728">
@@ -331,16 +363,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
+    <entry file="file://$PROJECT_DIR$/Test.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Scripts/Test.ipynb" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Test_Script.py">
+    <entry file="file://$PROJECT_DIR$/DATA/Test_Image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Image_Processing/Test_Script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" selection-start-line="11" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="4676">
+          <caret line="140" column="50" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="50" />
           <folding>
-            <element signature="e#16#26#0" expanded="true" />
+            <element signature="e#15#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/imagine-ocr/lib/python3.6/site-packages/tensorflow/python/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/imagine-ocr/lib/python3.6/site-packages/IPython/core/interactiveshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="3324" selection-start-line="3324" selection-end-line="3324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/CNN_Custom_Dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="e#4#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Image_Preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/Tensor_Flow_Example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+          <folding>
+            <element signature="e#5#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="3" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -4,8 +4,10 @@
       <w>crossentropy</w>
       <w>keras</w>
       <w>laplacian</w>
+      <w>marcoistasy</w>
       <w>mnist</w>
       <w>relu</w>
+      <w>resized</w>
       <w>sobel</w>
       <w>softmax</w>
       <w>thresholded</w>

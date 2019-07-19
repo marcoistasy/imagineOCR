@@ -26,7 +26,6 @@ plt.imshow(dog_two)
 # Image generator: will apply transformations to images
 
 image_generator = ImageDataGenerator(rotation_range = 30, width_shift_range = 0.1, height_shift_range = 0.1, rescale = 1/255, shear_range = 0.2, zoom_range = 0.2, horizontal_flip = True, fill_mode = 'nearest')
-
 plt.imshow(image_generator.random_transform(dog_two))
 
 #%%
@@ -59,9 +58,7 @@ model.compile(loss='binary_crossentropy', optimizer = 'adam', metrics = ['accura
 
 # Create images from training data
 batch_size = 16
-
 training_image_generator = image_generator.flow_from_directory('CATS_DOGS/train', target_size = input_shape[:2], batch_size = batch_size, class_mode = 'binary')
-
 test_image_generator = image_generator.flow_from_directory('CATS_DOGS/test', target_size = input_shape[:2], batch_size = batch_size, class_mode = 'binary')
 
 #%%
