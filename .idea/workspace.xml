@@ -31,42 +31,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/Image_Preprocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/Tensor_Flow_Example.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scripts/Image_Classification_Model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
-              <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+              <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
               <folding>
-                <element signature="e#5#23#0" expanded="true" />
+                <element signature="e#17#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-line="3" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Logo.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -100,9 +74,13 @@
         <option value="$PROJECT_DIR$/Scripts/Test_Script.py" />
         <option value="$PROJECT_DIR$/Scripts/Image_Preprocessing.py" />
         <option value="$PROJECT_DIR$/Scripts/Model_Examples/CNN_Custom_Dataset.py" />
-        <option value="$PROJECT_DIR$/Scripts/Tensor_Flow_Example.py" />
-        <option value="$PROJECT_DIR$/Scripts/Model_Examples/Tensor_Flow_Example.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Scripts/Model_Examples/Tensor_Flow_Example.py" />
+        <option value="$PROJECT_DIR$/Scripts/Tensor_Flow_Example.py" />
+        <option value="$PROJECT_DIR$/Examples/Pet_Images_Project/Tensor_Flow_Example.py" />
+        <option value="$PROJECT_DIR$/Examples/Object_Detection_API/models/research/object_detection/object_detection_tutorial.py" />
+        <option value="$PROJECT_DIR$/Examples/Object_Detection_API/models/research/object_detection/Object_detection_image.py" />
+        <option value="$PROJECT_DIR$/Scripts/Image_Classification_Model.py" />
       </list>
     </option>
   </component>
@@ -118,8 +96,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="45" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -129,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,13 +119,28 @@
             <path>
               <item name="imagine-ocr" type="b2602c69:ProjectViewProjectNode" />
               <item name="imagine-ocr" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="DATA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imagine-ocr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imagine-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="DATA" type="462c0819:PsiDirectoryNode" />
+              <item name="Model_Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imagine-ocr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imagine-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imagine-ocr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imagine-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +156,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -190,7 +185,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Image_Classification_Model">
+    <configuration name="Image_Classification_Model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="imagine-ocr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/Image_Classification_Model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Object_detection_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="imagine-ocr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Examples/Object_Detection_API/models/research/object_detection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Examples/Object_Detection_API/models/research/object_detection/Object_detection_image.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="imagine-ocr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,6 +252,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Image_Classification_Model" />
+        <item itemvalue="Python.Object_detection_image" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -246,11 +291,24 @@
       <workItem from="1563550392639" duration="679000" />
       <workItem from="1563551808624" duration="198000" />
       <workItem from="1563552173462" duration="233000" />
+      <workItem from="1563552642327" duration="2254000" />
+      <workItem from="1563557632704" duration="5029000" />
+      <workItem from="1563703740367" duration="486000" />
+      <workItem from="1563704517896" duration="462000" />
+      <workItem from="1563712976711" duration="1082000" />
+      <workItem from="1563715056408" duration="797000" />
+      <workItem from="1563716365288" duration="194000" />
+      <workItem from="1563717022718" duration="453000" />
+      <workItem from="1563717506745" duration="1083000" />
+      <workItem from="1563719385942" duration="942000" />
+      <workItem from="1563747491304" duration="887000" />
+      <workItem from="1563801696367" duration="2072000" />
+      <workItem from="1563804394282" duration="3357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21335000" />
+    <option name="totallyTimeSpent" value="40433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,7 +323,33 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15164521" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49508598" weight="0.22389127" />
+      <window_info id="Structure" order="1" sideWeight="0.504914" side_tool="true" weight="0.22389127" />
+      <window_info id="Favorites" order="2" show_stripe_button="false" side_tool="true" weight="0.3297568" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.514742" side_tool="true" weight="0.44065806" />
+      <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32923833" />
+      <window_info anchor="bottom" id="Event Log" order="7" show_stripe_button="false" side_tool="true" weight="0.3280098" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Jupyter" order="12" show_stripe_button="false" weight="0.33772454" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" side_tool="true" weight="0.3298611" />
+      <window_info anchor="right" id="SciView" order="1" sideWeight="0.48157248" weight="0.44134477" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="5" sideWeight="0.62588906" side_tool="true" weight="0.4068768" />
+      <window_info anchor="right" id="Python Console" order="6" sideWeight="0.5184275" side_tool="true" weight="0.44134477" />
+      <window_info anchor="right" id="Database" order="7" show_stripe_button="false" sideWeight="0.514742" side_tool="true" weight="0.34263232" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23462088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.12160229" />
       <window_info id="Favorites" order="2" show_stripe_button="false" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -273,23 +357,23 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.514742" side_tool="true" weight="0.34263232" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.514742" side_tool="true" weight="0.44065806" />
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32923833" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32934132" />
+      <window_info anchor="bottom" id="Event Log" order="7" show_stripe_button="false" side_tool="true" weight="0.3280098" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Jupyter" order="12" weight="0.33772454" />
+      <window_info anchor="bottom" id="Jupyter" order="12" show_stripe_button="false" weight="0.33772454" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" side_tool="true" weight="0.3298611" />
-      <window_info anchor="right" id="SciView" order="1" sideWeight="0.48525798" weight="0.46852645" />
+      <window_info anchor="right" id="SciView" order="1" sideWeight="0.48383233" weight="0.46805555" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="right" id="Key Promoter X" order="5" sideWeight="0.62588906" side_tool="true" weight="0.4068768" />
-      <window_info anchor="right" id="Python Console" order="6" sideWeight="0.514742" side_tool="true" weight="0.46852645" />
+      <window_info anchor="right" id="Python Console" order="6" sideWeight="0.51616764" side_tool="true" visible="true" weight="0.2274678" />
       <window_info anchor="right" id="Database" order="7" show_stripe_button="false" sideWeight="0.514742" side_tool="true" weight="0.34263232" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -307,16 +391,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test_Image.jpg" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/TensorFlowExample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="e#26#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/TensorFlowExample.py" />
     <entry file="file://$PROJECT_DIR$/Scripts/Image_Processing/MorphologicalOperators.py" />
     <entry file="file://$PROJECT_DIR$/Scripts/Image_Processing/Gradients.py" />
     <entry file="file://$PROJECT_DIR$/Scripts/Image_Processing/Thresholding.py" />
@@ -353,16 +428,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/Keras_Basics.h5" />
     <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/cifar10.h5" />
-    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/CNN_Keras_CIFAR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#4#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/CNN_Keras_CIFAR.py" />
     <entry file="file://$PROJECT_DIR$/Test.ipynb" />
     <entry file="file://$PROJECT_DIR$/Scripts/Test.ipynb" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -371,59 +437,12 @@
     <entry file="file://$PROJECT_DIR$/DATA/Test_Image.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Image_Processing/Test_Script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4676">
-          <caret line="140" column="50" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="50" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/imagine-ocr/lib/python3.6/site-packages/tensorflow/python/keras/engine/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/imagine-ocr/lib/python3.6/site-packages/IPython/core/interactiveshell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="3324" selection-start-line="3324" selection-end-line="3324" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/CNN_Custom_Dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-          <folding>
-            <element signature="e#4#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Image_Preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Image_Processing/Test_Script.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/imagine-ocr/lib/python3.6/site-packages/tensorflow/python/keras/engine/training.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/imagine-ocr/lib/python3.6/site-packages/IPython/core/interactiveshell.py" />
+    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/CNN_Custom_Dataset.py" />
     <entry file="file://$PROJECT_DIR$/Resources/Logo.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/Tensor_Flow_Example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
-          <folding>
-            <element signature="e#5#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -435,5 +454,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Image_Preprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/Scripts/Model_Examples/Tensor_Flow_Example.py" />
+    <entry file="file://$PROJECT_DIR$/Scripts/Tensor_Flow_Example.py" />
+    <entry file="file://$PROJECT_DIR$/Examples/Tensor_Flow_Example.py" />
+    <entry file="file://$PROJECT_DIR$/Examples/Pet_Images_Project/Tensor_Flow_Example.py" />
+    <entry file="file://$PROJECT_DIR$/Examples/Object_Detection_API/models/research/object_detection/CONTRIBUTING.md" />
+    <entry file="file://$PROJECT_DIR$/Examples/Object_Detection_API/models/research/object_detection/object_detection_tutorial.py" />
+    <entry file="file://$PROJECT_DIR$/Examples/Object_Detection_API/models/research/object_detection/object_detection_tutorial.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Examples/Object_Detection_API/models/research/object_detection/Object_detection_image.py" />
+    <entry file="file://$PROJECT_DIR$/Scripts/Data_Processing/generate_tfrecord.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Image_Classification_Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+          <folding>
+            <element signature="e#17#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
