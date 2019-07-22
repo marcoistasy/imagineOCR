@@ -9,21 +9,23 @@ import time
 import tensorflow as tf
 import numpy as np
 
+from Scripts import Image_Preprocessing
+
 import matplotlib.pyplot as plt
 
 #%%
 
 RESIZE_SIZE = (50, 50)  # Resize data so that it all is the same
 
-training_data = []  # property to hold training data
 
-
-def create_training_data():
+def get_training_data():
     # Function that will append training data to above property
 
     data_directory = 'DATA/Model_Data'  # Path to the directory that holds the data
 
-    categories = ['a', 'e']  # Categories in the data
+    categories = ['a', 'e', 'é', 'i', 'o', 'u']  # Categories in the data
+
+    training_data = []  # property to hold training data
 
     for category in categories:
         # Iterate through the categories and link them to an index
@@ -46,21 +48,25 @@ def create_training_data():
                     training_data.append([resized_image_as_array, class_as_number])  # add data to the list: each
                     # with a class
 
+                    # x = Image_Preprocessing.generate_data([resized_image_as_array, class_as_number])
+
                 except Exception as e:
 
                     logging.error('Could not load {}'.format(os.path.join(path, image)), exc_info=e)
 
+    random.shuffle(training_data)  # Shuffle the training data to confuse the neural network
 
-create_training_data()
+    return training_data
 
-random.shuffle(training_data)  # Shuffle the training data to confuse the neural network
+
+print(len(get_training_data()))
 
 #%%
 
 image_data = []
 label_date = []
 
-for feature, label in training_data:
+for feature, label in get_training_data():
 
     # Pass the data into the respective feature and label array
     image_data.append(feature)
@@ -89,22 +95,23 @@ model = tf.keras.models.Sequential([
   tf.keras.layers.Dense(64),
 
   # Output layer
-  tf.keras.layers.Dense(1, activation=tf.nn.sigmoid)
+  tf.keras.layers.Dense(6, activation=tf.nn.softmax)
 
 ])
 
-# Save model to directory log to be able to retrieve it from tensorboard
-NAME = 'Cats-Dogs-CNN-64x2-{}'.format(int(time.time()))
-tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir="logs/{}".format(NAME))
-
 # Compile model
 model.compile(optimizer='adam',
-              loss='binary_crossentropy',  # I think this should be changed if dealing with more than two items
+              loss='sparse_categorical_crossentropy',  # I think this should be changed if dealing with more than two
+              # items
               metrics=['accuracy'])
 
 
 #%% Fit model to training data
 
-model.fit(image_data, label_date, batch_size=32, validation_split=0.3, epochs=10, callbacks=[tensorboard_callback])
-    # validation_split automatically splits up data into test and train
-    # Batch size is how many things you wanna throw at once to the fitter
+# Save model to directory log to be able to retrieve it from tensorboard
+NAME = '{}'.format(int(time.time()))
+tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir="tensorboard_logs/{}".format(NAME))
+
+model.fit(image_data, label_date, batch_size=32, validation_split=0.3, epochs=500, callbacks=[tensorboard_callback])
+# validation_split automatically splits up data into test and train
+# Batch size is how many things you wanna throw at once to the fitter
