@@ -64,7 +64,8 @@ Add additional notes about how to deploy this on a live system
 
 * [Tensorflow](https://www.tensorflow.org)
 * [Tesnsorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
-* [Conda](https://docs.conda.io/en/latest/)
+* [LabelImg](https://github.com/tzutalin/labelImg)
+
 
 ## Contributing
 
