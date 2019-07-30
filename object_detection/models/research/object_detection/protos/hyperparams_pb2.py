@@ -581,74 +581,74 @@ DESCRIPTOR.message_types_by_name['BatchNorm'] = _BATCHNORM
 DESCRIPTOR.message_types_by_name['GroupNorm'] = _GROUPNORM
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-Hyperparams = _reflection.GeneratedProtocolMessageType('Hyperparams', (_message.Message,), {
-  'DESCRIPTOR' : _HYPERPARAMS,
-  '__module__' : 'object_detection.protos.hyperparams_pb2'
+Hyperparams = _reflection.GeneratedProtocolMessageType('Hyperparams', (_message.Message,), dict(
+  DESCRIPTOR = _HYPERPARAMS,
+  __module__ = 'object_detection.protos.hyperparams_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.Hyperparams)
-  })
+  ))
 _sym_db.RegisterMessage(Hyperparams)
 
-Regularizer = _reflection.GeneratedProtocolMessageType('Regularizer', (_message.Message,), {
-  'DESCRIPTOR' : _REGULARIZER,
-  '__module__' : 'object_detection.protos.hyperparams_pb2'
+Regularizer = _reflection.GeneratedProtocolMessageType('Regularizer', (_message.Message,), dict(
+  DESCRIPTOR = _REGULARIZER,
+  __module__ = 'object_detection.protos.hyperparams_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.Regularizer)
-  })
+  ))
 _sym_db.RegisterMessage(Regularizer)
 
-L1Regularizer = _reflection.GeneratedProtocolMessageType('L1Regularizer', (_message.Message,), {
-  'DESCRIPTOR' : _L1REGULARIZER,
-  '__module__' : 'object_detection.protos.hyperparams_pb2'
+L1Regularizer = _reflection.GeneratedProtocolMessageType('L1Regularizer', (_message.Message,), dict(
+  DESCRIPTOR = _L1REGULARIZER,
+  __module__ = 'object_detection.protos.hyperparams_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.L1Regularizer)
-  })
+  ))
 _sym_db.RegisterMessage(L1Regularizer)
 
-L2Regularizer = _reflection.GeneratedProtocolMessageType('L2Regularizer', (_message.Message,), {
-  'DESCRIPTOR' : _L2REGULARIZER,
-  '__module__' : 'object_detection.protos.hyperparams_pb2'
+L2Regularizer = _reflection.GeneratedProtocolMessageType('L2Regularizer', (_message.Message,), dict(
+  DESCRIPTOR = _L2REGULARIZER,
+  __module__ = 'object_detection.protos.hyperparams_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.L2Regularizer)
-  })
+  ))
 _sym_db.RegisterMessage(L2Regularizer)
 
-Initializer = _reflection.GeneratedProtocolMessageType('Initializer', (_message.Message,), {
-  'DESCRIPTOR' : _INITIALIZER,
-  '__module__' : 'object_detection.protos.hyperparams_pb2'
+Initializer = _reflection.GeneratedProtocolMessageType('Initializer', (_message.Message,), dict(
+  DESCRIPTOR = _INITIALIZER,
+  __module__ = 'object_detection.protos.hyperparams_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.Initializer)
-  })
+  ))
 _sym_db.RegisterMessage(Initializer)
 
-TruncatedNormalInitializer = _reflection.GeneratedProtocolMessageType('TruncatedNormalInitializer', (_message.Message,), {
-  'DESCRIPTOR' : _TRUNCATEDNORMALINITIALIZER,
-  '__module__' : 'object_detection.protos.hyperparams_pb2'
+TruncatedNormalInitializer = _reflection.GeneratedProtocolMessageType('TruncatedNormalInitializer', (_message.Message,), dict(
+  DESCRIPTOR = _TRUNCATEDNORMALINITIALIZER,
+  __module__ = 'object_detection.protos.hyperparams_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.TruncatedNormalInitializer)
-  })
+  ))
 _sym_db.RegisterMessage(TruncatedNormalInitializer)
 
-VarianceScalingInitializer = _reflection.GeneratedProtocolMessageType('VarianceScalingInitializer', (_message.Message,), {
-  'DESCRIPTOR' : _VARIANCESCALINGINITIALIZER,
-  '__module__' : 'object_detection.protos.hyperparams_pb2'
+VarianceScalingInitializer = _reflection.GeneratedProtocolMessageType('VarianceScalingInitializer', (_message.Message,), dict(
+  DESCRIPTOR = _VARIANCESCALINGINITIALIZER,
+  __module__ = 'object_detection.protos.hyperparams_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.VarianceScalingInitializer)
-  })
+  ))
 _sym_db.RegisterMessage(VarianceScalingInitializer)
 
-RandomNormalInitializer = _reflection.GeneratedProtocolMessageType('RandomNormalInitializer', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMNORMALINITIALIZER,
-  '__module__' : 'object_detection.protos.hyperparams_pb2'
+RandomNormalInitializer = _reflection.GeneratedProtocolMessageType('RandomNormalInitializer', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMNORMALINITIALIZER,
+  __module__ = 'object_detection.protos.hyperparams_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomNormalInitializer)
-  })
+  ))
 _sym_db.RegisterMessage(RandomNormalInitializer)
 
-BatchNorm = _reflection.GeneratedProtocolMessageType('BatchNorm', (_message.Message,), {
-  'DESCRIPTOR' : _BATCHNORM,
-  '__module__' : 'object_detection.protos.hyperparams_pb2'
+BatchNorm = _reflection.GeneratedProtocolMessageType('BatchNorm', (_message.Message,), dict(
+  DESCRIPTOR = _BATCHNORM,
+  __module__ = 'object_detection.protos.hyperparams_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.BatchNorm)
-  })
+  ))
 _sym_db.RegisterMessage(BatchNorm)
 
-GroupNorm = _reflection.GeneratedProtocolMessageType('GroupNorm', (_message.Message,), {
-  'DESCRIPTOR' : _GROUPNORM,
-  '__module__' : 'object_detection.protos.hyperparams_pb2'
+GroupNorm = _reflection.GeneratedProtocolMessageType('GroupNorm', (_message.Message,), dict(
+  DESCRIPTOR = _GROUPNORM,
+  __module__ = 'object_detection.protos.hyperparams_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.GroupNorm)
-  })
+  ))
 _sym_db.RegisterMessage(GroupNorm)
 
 

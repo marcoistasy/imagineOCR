@@ -464,33 +464,33 @@ DESCRIPTOR.message_types_by_name['SsdFeatureExtractor'] = _SSDFEATUREEXTRACTOR
 DESCRIPTOR.message_types_by_name['FeaturePyramidNetworks'] = _FEATUREPYRAMIDNETWORKS
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-Ssd = _reflection.GeneratedProtocolMessageType('Ssd', (_message.Message,), {
+Ssd = _reflection.GeneratedProtocolMessageType('Ssd', (_message.Message,), dict(
 
-  'MaskHead' : _reflection.GeneratedProtocolMessageType('MaskHead', (_message.Message,), {
-    'DESCRIPTOR' : _SSD_MASKHEAD,
-    '__module__' : 'object_detection.protos.ssd_pb2'
+  MaskHead = _reflection.GeneratedProtocolMessageType('MaskHead', (_message.Message,), dict(
+    DESCRIPTOR = _SSD_MASKHEAD,
+    __module__ = 'object_detection.protos.ssd_pb2'
     # @@protoc_insertion_point(class_scope:object_detection.protos.Ssd.MaskHead)
-    })
+    ))
   ,
-  'DESCRIPTOR' : _SSD,
-  '__module__' : 'object_detection.protos.ssd_pb2'
+  DESCRIPTOR = _SSD,
+  __module__ = 'object_detection.protos.ssd_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.Ssd)
-  })
+  ))
 _sym_db.RegisterMessage(Ssd)
 _sym_db.RegisterMessage(Ssd.MaskHead)
 
-SsdFeatureExtractor = _reflection.GeneratedProtocolMessageType('SsdFeatureExtractor', (_message.Message,), {
-  'DESCRIPTOR' : _SSDFEATUREEXTRACTOR,
-  '__module__' : 'object_detection.protos.ssd_pb2'
+SsdFeatureExtractor = _reflection.GeneratedProtocolMessageType('SsdFeatureExtractor', (_message.Message,), dict(
+  DESCRIPTOR = _SSDFEATUREEXTRACTOR,
+  __module__ = 'object_detection.protos.ssd_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SsdFeatureExtractor)
-  })
+  ))
 _sym_db.RegisterMessage(SsdFeatureExtractor)
 
-FeaturePyramidNetworks = _reflection.GeneratedProtocolMessageType('FeaturePyramidNetworks', (_message.Message,), {
-  'DESCRIPTOR' : _FEATUREPYRAMIDNETWORKS,
-  '__module__' : 'object_detection.protos.ssd_pb2'
+FeaturePyramidNetworks = _reflection.GeneratedProtocolMessageType('FeaturePyramidNetworks', (_message.Message,), dict(
+  DESCRIPTOR = _FEATUREPYRAMIDNETWORKS,
+  __module__ = 'object_detection.protos.ssd_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.FeaturePyramidNetworks)
-  })
+  ))
 _sym_db.RegisterMessage(FeaturePyramidNetworks)
 
 

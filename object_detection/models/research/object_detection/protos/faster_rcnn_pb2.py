@@ -365,18 +365,18 @@ DESCRIPTOR.message_types_by_name['FasterRcnn'] = _FASTERRCNN
 DESCRIPTOR.message_types_by_name['FasterRcnnFeatureExtractor'] = _FASTERRCNNFEATUREEXTRACTOR
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-FasterRcnn = _reflection.GeneratedProtocolMessageType('FasterRcnn', (_message.Message,), {
-  'DESCRIPTOR' : _FASTERRCNN,
-  '__module__' : 'object_detection.protos.faster_rcnn_pb2'
+FasterRcnn = _reflection.GeneratedProtocolMessageType('FasterRcnn', (_message.Message,), dict(
+  DESCRIPTOR = _FASTERRCNN,
+  __module__ = 'object_detection.protos.faster_rcnn_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.FasterRcnn)
-  })
+  ))
 _sym_db.RegisterMessage(FasterRcnn)
 
-FasterRcnnFeatureExtractor = _reflection.GeneratedProtocolMessageType('FasterRcnnFeatureExtractor', (_message.Message,), {
-  'DESCRIPTOR' : _FASTERRCNNFEATUREEXTRACTOR,
-  '__module__' : 'object_detection.protos.faster_rcnn_pb2'
+FasterRcnnFeatureExtractor = _reflection.GeneratedProtocolMessageType('FasterRcnnFeatureExtractor', (_message.Message,), dict(
+  DESCRIPTOR = _FASTERRCNNFEATUREEXTRACTOR,
+  __module__ = 'object_detection.protos.faster_rcnn_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.FasterRcnnFeatureExtractor)
-  })
+  ))
 _sym_db.RegisterMessage(FasterRcnnFeatureExtractor)
 
 

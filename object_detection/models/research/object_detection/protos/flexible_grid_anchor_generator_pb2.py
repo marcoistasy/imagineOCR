@@ -134,18 +134,18 @@ DESCRIPTOR.message_types_by_name['FlexibleGridAnchorGenerator'] = _FLEXIBLEGRIDA
 DESCRIPTOR.message_types_by_name['AnchorGrid'] = _ANCHORGRID
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-FlexibleGridAnchorGenerator = _reflection.GeneratedProtocolMessageType('FlexibleGridAnchorGenerator', (_message.Message,), {
-  'DESCRIPTOR' : _FLEXIBLEGRIDANCHORGENERATOR,
-  '__module__' : 'object_detection.protos.flexible_grid_anchor_generator_pb2'
+FlexibleGridAnchorGenerator = _reflection.GeneratedProtocolMessageType('FlexibleGridAnchorGenerator', (_message.Message,), dict(
+  DESCRIPTOR = _FLEXIBLEGRIDANCHORGENERATOR,
+  __module__ = 'object_detection.protos.flexible_grid_anchor_generator_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.FlexibleGridAnchorGenerator)
-  })
+  ))
 _sym_db.RegisterMessage(FlexibleGridAnchorGenerator)
 
-AnchorGrid = _reflection.GeneratedProtocolMessageType('AnchorGrid', (_message.Message,), {
-  'DESCRIPTOR' : _ANCHORGRID,
-  '__module__' : 'object_detection.protos.flexible_grid_anchor_generator_pb2'
+AnchorGrid = _reflection.GeneratedProtocolMessageType('AnchorGrid', (_message.Message,), dict(
+  DESCRIPTOR = _ANCHORGRID,
+  __module__ = 'object_detection.protos.flexible_grid_anchor_generator_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.AnchorGrid)
-  })
+  ))
 _sym_db.RegisterMessage(AnchorGrid)
 
 

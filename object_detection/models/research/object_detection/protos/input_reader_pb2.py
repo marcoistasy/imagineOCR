@@ -321,25 +321,25 @@ DESCRIPTOR.message_types_by_name['ExternalInputReader'] = _EXTERNALINPUTREADER
 DESCRIPTOR.enum_types_by_name['InstanceMaskType'] = _INSTANCEMASKTYPE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-InputReader = _reflection.GeneratedProtocolMessageType('InputReader', (_message.Message,), {
-  'DESCRIPTOR' : _INPUTREADER,
-  '__module__' : 'object_detection.protos.input_reader_pb2'
+InputReader = _reflection.GeneratedProtocolMessageType('InputReader', (_message.Message,), dict(
+  DESCRIPTOR = _INPUTREADER,
+  __module__ = 'object_detection.protos.input_reader_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.InputReader)
-  })
+  ))
 _sym_db.RegisterMessage(InputReader)
 
-TFRecordInputReader = _reflection.GeneratedProtocolMessageType('TFRecordInputReader', (_message.Message,), {
-  'DESCRIPTOR' : _TFRECORDINPUTREADER,
-  '__module__' : 'object_detection.protos.input_reader_pb2'
+TFRecordInputReader = _reflection.GeneratedProtocolMessageType('TFRecordInputReader', (_message.Message,), dict(
+  DESCRIPTOR = _TFRECORDINPUTREADER,
+  __module__ = 'object_detection.protos.input_reader_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.TFRecordInputReader)
-  })
+  ))
 _sym_db.RegisterMessage(TFRecordInputReader)
 
-ExternalInputReader = _reflection.GeneratedProtocolMessageType('ExternalInputReader', (_message.Message,), {
-  'DESCRIPTOR' : _EXTERNALINPUTREADER,
-  '__module__' : 'object_detection.protos.input_reader_pb2'
+ExternalInputReader = _reflection.GeneratedProtocolMessageType('ExternalInputReader', (_message.Message,), dict(
+  DESCRIPTOR = _EXTERNALINPUTREADER,
+  __module__ = 'object_detection.protos.input_reader_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ExternalInputReader)
-  })
+  ))
 _sym_db.RegisterMessage(ExternalInputReader)
 
 

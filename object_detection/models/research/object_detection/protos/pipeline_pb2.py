@@ -106,11 +106,11 @@ _TRAINEVALPIPELINECONFIG.fields_by_name['graph_rewriter'].message_type = object_
 DESCRIPTOR.message_types_by_name['TrainEvalPipelineConfig'] = _TRAINEVALPIPELINECONFIG
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-TrainEvalPipelineConfig = _reflection.GeneratedProtocolMessageType('TrainEvalPipelineConfig', (_message.Message,), {
-  'DESCRIPTOR' : _TRAINEVALPIPELINECONFIG,
-  '__module__' : 'object_detection.protos.pipeline_pb2'
+TrainEvalPipelineConfig = _reflection.GeneratedProtocolMessageType('TrainEvalPipelineConfig', (_message.Message,), dict(
+  DESCRIPTOR = _TRAINEVALPIPELINECONFIG,
+  __module__ = 'object_detection.protos.pipeline_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.TrainEvalPipelineConfig)
-  })
+  ))
 _sym_db.RegisterMessage(TrainEvalPipelineConfig)
 
 

@@ -143,11 +143,11 @@ _SSDANCHORGENERATOR = _descriptor.Descriptor(
 DESCRIPTOR.message_types_by_name['SsdAnchorGenerator'] = _SSDANCHORGENERATOR
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-SsdAnchorGenerator = _reflection.GeneratedProtocolMessageType('SsdAnchorGenerator', (_message.Message,), {
-  'DESCRIPTOR' : _SSDANCHORGENERATOR,
-  '__module__' : 'object_detection.protos.ssd_anchor_generator_pb2'
+SsdAnchorGenerator = _reflection.GeneratedProtocolMessageType('SsdAnchorGenerator', (_message.Message,), dict(
+  DESCRIPTOR = _SSDANCHORGENERATOR,
+  __module__ = 'object_detection.protos.ssd_anchor_generator_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SsdAnchorGenerator)
-  })
+  ))
 _sym_db.RegisterMessage(SsdAnchorGenerator)
 
 

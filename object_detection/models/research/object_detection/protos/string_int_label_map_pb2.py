@@ -106,18 +106,18 @@ DESCRIPTOR.message_types_by_name['StringIntLabelMapItem'] = _STRINGINTLABELMAPIT
 DESCRIPTOR.message_types_by_name['StringIntLabelMap'] = _STRINGINTLABELMAP
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-StringIntLabelMapItem = _reflection.GeneratedProtocolMessageType('StringIntLabelMapItem', (_message.Message,), {
-  'DESCRIPTOR' : _STRINGINTLABELMAPITEM,
-  '__module__' : 'object_detection.protos.string_int_label_map_pb2'
+StringIntLabelMapItem = _reflection.GeneratedProtocolMessageType('StringIntLabelMapItem', (_message.Message,), dict(
+  DESCRIPTOR = _STRINGINTLABELMAPITEM,
+  __module__ = 'object_detection.protos.string_int_label_map_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.StringIntLabelMapItem)
-  })
+  ))
 _sym_db.RegisterMessage(StringIntLabelMapItem)
 
-StringIntLabelMap = _reflection.GeneratedProtocolMessageType('StringIntLabelMap', (_message.Message,), {
-  'DESCRIPTOR' : _STRINGINTLABELMAP,
-  '__module__' : 'object_detection.protos.string_int_label_map_pb2'
+StringIntLabelMap = _reflection.GeneratedProtocolMessageType('StringIntLabelMap', (_message.Message,), dict(
+  DESCRIPTOR = _STRINGINTLABELMAP,
+  __module__ = 'object_detection.protos.string_int_label_map_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.StringIntLabelMap)
-  })
+  ))
 _sym_db.RegisterMessage(StringIntLabelMap)
 
 

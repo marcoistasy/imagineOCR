@@ -80,11 +80,11 @@ _MATCHER.fields_by_name['bipartite_matcher'].containing_oneof = _MATCHER.oneofs_
 DESCRIPTOR.message_types_by_name['Matcher'] = _MATCHER
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-Matcher = _reflection.GeneratedProtocolMessageType('Matcher', (_message.Message,), {
-  'DESCRIPTOR' : _MATCHER,
-  '__module__' : 'object_detection.protos.matcher_pb2'
+Matcher = _reflection.GeneratedProtocolMessageType('Matcher', (_message.Message,), dict(
+  DESCRIPTOR = _MATCHER,
+  __module__ = 'object_detection.protos.matcher_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.Matcher)
-  })
+  ))
 _sym_db.RegisterMessage(Matcher)
 
 

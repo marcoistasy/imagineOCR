@@ -108,11 +108,11 @@ _GRIDANCHORGENERATOR = _descriptor.Descriptor(
 DESCRIPTOR.message_types_by_name['GridAnchorGenerator'] = _GRIDANCHORGENERATOR
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-GridAnchorGenerator = _reflection.GeneratedProtocolMessageType('GridAnchorGenerator', (_message.Message,), {
-  'DESCRIPTOR' : _GRIDANCHORGENERATOR,
-  '__module__' : 'object_detection.protos.grid_anchor_generator_pb2'
+GridAnchorGenerator = _reflection.GeneratedProtocolMessageType('GridAnchorGenerator', (_message.Message,), dict(
+  DESCRIPTOR = _GRIDANCHORGENERATOR,
+  __module__ = 'object_detection.protos.grid_anchor_generator_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.GridAnchorGenerator)
-  })
+  ))
 _sym_db.RegisterMessage(GridAnchorGenerator)
 
 

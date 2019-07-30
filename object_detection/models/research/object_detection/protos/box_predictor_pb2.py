@@ -624,55 +624,55 @@ DESCRIPTOR.message_types_by_name['MaskRCNNBoxPredictor'] = _MASKRCNNBOXPREDICTOR
 DESCRIPTOR.message_types_by_name['RfcnBoxPredictor'] = _RFCNBOXPREDICTOR
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-BoxPredictor = _reflection.GeneratedProtocolMessageType('BoxPredictor', (_message.Message,), {
-  'DESCRIPTOR' : _BOXPREDICTOR,
-  '__module__' : 'object_detection.protos.box_predictor_pb2'
+BoxPredictor = _reflection.GeneratedProtocolMessageType('BoxPredictor', (_message.Message,), dict(
+  DESCRIPTOR = _BOXPREDICTOR,
+  __module__ = 'object_detection.protos.box_predictor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.BoxPredictor)
-  })
+  ))
 _sym_db.RegisterMessage(BoxPredictor)
 
-ConvolutionalBoxPredictor = _reflection.GeneratedProtocolMessageType('ConvolutionalBoxPredictor', (_message.Message,), {
+ConvolutionalBoxPredictor = _reflection.GeneratedProtocolMessageType('ConvolutionalBoxPredictor', (_message.Message,), dict(
 
-  'BoxEncodingsClipRange' : _reflection.GeneratedProtocolMessageType('BoxEncodingsClipRange', (_message.Message,), {
-    'DESCRIPTOR' : _CONVOLUTIONALBOXPREDICTOR_BOXENCODINGSCLIPRANGE,
-    '__module__' : 'object_detection.protos.box_predictor_pb2'
+  BoxEncodingsClipRange = _reflection.GeneratedProtocolMessageType('BoxEncodingsClipRange', (_message.Message,), dict(
+    DESCRIPTOR = _CONVOLUTIONALBOXPREDICTOR_BOXENCODINGSCLIPRANGE,
+    __module__ = 'object_detection.protos.box_predictor_pb2'
     # @@protoc_insertion_point(class_scope:object_detection.protos.ConvolutionalBoxPredictor.BoxEncodingsClipRange)
-    })
+    ))
   ,
-  'DESCRIPTOR' : _CONVOLUTIONALBOXPREDICTOR,
-  '__module__' : 'object_detection.protos.box_predictor_pb2'
+  DESCRIPTOR = _CONVOLUTIONALBOXPREDICTOR,
+  __module__ = 'object_detection.protos.box_predictor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ConvolutionalBoxPredictor)
-  })
+  ))
 _sym_db.RegisterMessage(ConvolutionalBoxPredictor)
 _sym_db.RegisterMessage(ConvolutionalBoxPredictor.BoxEncodingsClipRange)
 
-WeightSharedConvolutionalBoxPredictor = _reflection.GeneratedProtocolMessageType('WeightSharedConvolutionalBoxPredictor', (_message.Message,), {
+WeightSharedConvolutionalBoxPredictor = _reflection.GeneratedProtocolMessageType('WeightSharedConvolutionalBoxPredictor', (_message.Message,), dict(
 
-  'BoxEncodingsClipRange' : _reflection.GeneratedProtocolMessageType('BoxEncodingsClipRange', (_message.Message,), {
-    'DESCRIPTOR' : _WEIGHTSHAREDCONVOLUTIONALBOXPREDICTOR_BOXENCODINGSCLIPRANGE,
-    '__module__' : 'object_detection.protos.box_predictor_pb2'
+  BoxEncodingsClipRange = _reflection.GeneratedProtocolMessageType('BoxEncodingsClipRange', (_message.Message,), dict(
+    DESCRIPTOR = _WEIGHTSHAREDCONVOLUTIONALBOXPREDICTOR_BOXENCODINGSCLIPRANGE,
+    __module__ = 'object_detection.protos.box_predictor_pb2'
     # @@protoc_insertion_point(class_scope:object_detection.protos.WeightSharedConvolutionalBoxPredictor.BoxEncodingsClipRange)
-    })
+    ))
   ,
-  'DESCRIPTOR' : _WEIGHTSHAREDCONVOLUTIONALBOXPREDICTOR,
-  '__module__' : 'object_detection.protos.box_predictor_pb2'
+  DESCRIPTOR = _WEIGHTSHAREDCONVOLUTIONALBOXPREDICTOR,
+  __module__ = 'object_detection.protos.box_predictor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.WeightSharedConvolutionalBoxPredictor)
-  })
+  ))
 _sym_db.RegisterMessage(WeightSharedConvolutionalBoxPredictor)
 _sym_db.RegisterMessage(WeightSharedConvolutionalBoxPredictor.BoxEncodingsClipRange)
 
-MaskRCNNBoxPredictor = _reflection.GeneratedProtocolMessageType('MaskRCNNBoxPredictor', (_message.Message,), {
-  'DESCRIPTOR' : _MASKRCNNBOXPREDICTOR,
-  '__module__' : 'object_detection.protos.box_predictor_pb2'
+MaskRCNNBoxPredictor = _reflection.GeneratedProtocolMessageType('MaskRCNNBoxPredictor', (_message.Message,), dict(
+  DESCRIPTOR = _MASKRCNNBOXPREDICTOR,
+  __module__ = 'object_detection.protos.box_predictor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.MaskRCNNBoxPredictor)
-  })
+  ))
 _sym_db.RegisterMessage(MaskRCNNBoxPredictor)
 
-RfcnBoxPredictor = _reflection.GeneratedProtocolMessageType('RfcnBoxPredictor', (_message.Message,), {
-  'DESCRIPTOR' : _RFCNBOXPREDICTOR,
-  '__module__' : 'object_detection.protos.box_predictor_pb2'
+RfcnBoxPredictor = _reflection.GeneratedProtocolMessageType('RfcnBoxPredictor', (_message.Message,), dict(
+  DESCRIPTOR = _RFCNBOXPREDICTOR,
+  __module__ = 'object_detection.protos.box_predictor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RfcnBoxPredictor)
-  })
+  ))
 _sym_db.RegisterMessage(RfcnBoxPredictor)
 
 

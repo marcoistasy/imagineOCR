@@ -2143,270 +2143,270 @@ DESCRIPTOR.message_types_by_name['DropLabelProbabilistically'] = _DROPLABELPROBA
 DESCRIPTOR.message_types_by_name['RemapLabels'] = _REMAPLABELS
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-PreprocessingStep = _reflection.GeneratedProtocolMessageType('PreprocessingStep', (_message.Message,), {
-  'DESCRIPTOR' : _PREPROCESSINGSTEP,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+PreprocessingStep = _reflection.GeneratedProtocolMessageType('PreprocessingStep', (_message.Message,), dict(
+  DESCRIPTOR = _PREPROCESSINGSTEP,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.PreprocessingStep)
-  })
+  ))
 _sym_db.RegisterMessage(PreprocessingStep)
 
-NormalizeImage = _reflection.GeneratedProtocolMessageType('NormalizeImage', (_message.Message,), {
-  'DESCRIPTOR' : _NORMALIZEIMAGE,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+NormalizeImage = _reflection.GeneratedProtocolMessageType('NormalizeImage', (_message.Message,), dict(
+  DESCRIPTOR = _NORMALIZEIMAGE,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.NormalizeImage)
-  })
+  ))
 _sym_db.RegisterMessage(NormalizeImage)
 
-RandomHorizontalFlip = _reflection.GeneratedProtocolMessageType('RandomHorizontalFlip', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMHORIZONTALFLIP,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomHorizontalFlip = _reflection.GeneratedProtocolMessageType('RandomHorizontalFlip', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMHORIZONTALFLIP,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomHorizontalFlip)
-  })
+  ))
 _sym_db.RegisterMessage(RandomHorizontalFlip)
 
-RandomVerticalFlip = _reflection.GeneratedProtocolMessageType('RandomVerticalFlip', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMVERTICALFLIP,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomVerticalFlip = _reflection.GeneratedProtocolMessageType('RandomVerticalFlip', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMVERTICALFLIP,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomVerticalFlip)
-  })
+  ))
 _sym_db.RegisterMessage(RandomVerticalFlip)
 
-RandomRotation90 = _reflection.GeneratedProtocolMessageType('RandomRotation90', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMROTATION90,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomRotation90 = _reflection.GeneratedProtocolMessageType('RandomRotation90', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMROTATION90,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomRotation90)
-  })
+  ))
 _sym_db.RegisterMessage(RandomRotation90)
 
-RandomPixelValueScale = _reflection.GeneratedProtocolMessageType('RandomPixelValueScale', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMPIXELVALUESCALE,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomPixelValueScale = _reflection.GeneratedProtocolMessageType('RandomPixelValueScale', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMPIXELVALUESCALE,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomPixelValueScale)
-  })
+  ))
 _sym_db.RegisterMessage(RandomPixelValueScale)
 
-RandomImageScale = _reflection.GeneratedProtocolMessageType('RandomImageScale', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMIMAGESCALE,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomImageScale = _reflection.GeneratedProtocolMessageType('RandomImageScale', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMIMAGESCALE,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomImageScale)
-  })
+  ))
 _sym_db.RegisterMessage(RandomImageScale)
 
-RandomRGBtoGray = _reflection.GeneratedProtocolMessageType('RandomRGBtoGray', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMRGBTOGRAY,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomRGBtoGray = _reflection.GeneratedProtocolMessageType('RandomRGBtoGray', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMRGBTOGRAY,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomRGBtoGray)
-  })
+  ))
 _sym_db.RegisterMessage(RandomRGBtoGray)
 
-RandomAdjustBrightness = _reflection.GeneratedProtocolMessageType('RandomAdjustBrightness', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMADJUSTBRIGHTNESS,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomAdjustBrightness = _reflection.GeneratedProtocolMessageType('RandomAdjustBrightness', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMADJUSTBRIGHTNESS,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomAdjustBrightness)
-  })
+  ))
 _sym_db.RegisterMessage(RandomAdjustBrightness)
 
-RandomAdjustContrast = _reflection.GeneratedProtocolMessageType('RandomAdjustContrast', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMADJUSTCONTRAST,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomAdjustContrast = _reflection.GeneratedProtocolMessageType('RandomAdjustContrast', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMADJUSTCONTRAST,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomAdjustContrast)
-  })
+  ))
 _sym_db.RegisterMessage(RandomAdjustContrast)
 
-RandomAdjustHue = _reflection.GeneratedProtocolMessageType('RandomAdjustHue', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMADJUSTHUE,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomAdjustHue = _reflection.GeneratedProtocolMessageType('RandomAdjustHue', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMADJUSTHUE,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomAdjustHue)
-  })
+  ))
 _sym_db.RegisterMessage(RandomAdjustHue)
 
-RandomAdjustSaturation = _reflection.GeneratedProtocolMessageType('RandomAdjustSaturation', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMADJUSTSATURATION,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomAdjustSaturation = _reflection.GeneratedProtocolMessageType('RandomAdjustSaturation', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMADJUSTSATURATION,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomAdjustSaturation)
-  })
+  ))
 _sym_db.RegisterMessage(RandomAdjustSaturation)
 
-RandomDistortColor = _reflection.GeneratedProtocolMessageType('RandomDistortColor', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMDISTORTCOLOR,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomDistortColor = _reflection.GeneratedProtocolMessageType('RandomDistortColor', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMDISTORTCOLOR,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomDistortColor)
-  })
+  ))
 _sym_db.RegisterMessage(RandomDistortColor)
 
-RandomJitterBoxes = _reflection.GeneratedProtocolMessageType('RandomJitterBoxes', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMJITTERBOXES,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomJitterBoxes = _reflection.GeneratedProtocolMessageType('RandomJitterBoxes', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMJITTERBOXES,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomJitterBoxes)
-  })
+  ))
 _sym_db.RegisterMessage(RandomJitterBoxes)
 
-RandomCropImage = _reflection.GeneratedProtocolMessageType('RandomCropImage', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMCROPIMAGE,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomCropImage = _reflection.GeneratedProtocolMessageType('RandomCropImage', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMCROPIMAGE,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomCropImage)
-  })
+  ))
 _sym_db.RegisterMessage(RandomCropImage)
 
-RandomPadImage = _reflection.GeneratedProtocolMessageType('RandomPadImage', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMPADIMAGE,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomPadImage = _reflection.GeneratedProtocolMessageType('RandomPadImage', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMPADIMAGE,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomPadImage)
-  })
+  ))
 _sym_db.RegisterMessage(RandomPadImage)
 
-RandomAbsolutePadImage = _reflection.GeneratedProtocolMessageType('RandomAbsolutePadImage', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMABSOLUTEPADIMAGE,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomAbsolutePadImage = _reflection.GeneratedProtocolMessageType('RandomAbsolutePadImage', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMABSOLUTEPADIMAGE,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomAbsolutePadImage)
-  })
+  ))
 _sym_db.RegisterMessage(RandomAbsolutePadImage)
 
-RandomCropPadImage = _reflection.GeneratedProtocolMessageType('RandomCropPadImage', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMCROPPADIMAGE,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomCropPadImage = _reflection.GeneratedProtocolMessageType('RandomCropPadImage', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMCROPPADIMAGE,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomCropPadImage)
-  })
+  ))
 _sym_db.RegisterMessage(RandomCropPadImage)
 
-RandomCropToAspectRatio = _reflection.GeneratedProtocolMessageType('RandomCropToAspectRatio', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMCROPTOASPECTRATIO,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomCropToAspectRatio = _reflection.GeneratedProtocolMessageType('RandomCropToAspectRatio', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMCROPTOASPECTRATIO,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomCropToAspectRatio)
-  })
+  ))
 _sym_db.RegisterMessage(RandomCropToAspectRatio)
 
-RandomBlackPatches = _reflection.GeneratedProtocolMessageType('RandomBlackPatches', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMBLACKPATCHES,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomBlackPatches = _reflection.GeneratedProtocolMessageType('RandomBlackPatches', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMBLACKPATCHES,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomBlackPatches)
-  })
+  ))
 _sym_db.RegisterMessage(RandomBlackPatches)
 
-RandomResizeMethod = _reflection.GeneratedProtocolMessageType('RandomResizeMethod', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMRESIZEMETHOD,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomResizeMethod = _reflection.GeneratedProtocolMessageType('RandomResizeMethod', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMRESIZEMETHOD,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomResizeMethod)
-  })
+  ))
 _sym_db.RegisterMessage(RandomResizeMethod)
 
-RGBtoGray = _reflection.GeneratedProtocolMessageType('RGBtoGray', (_message.Message,), {
-  'DESCRIPTOR' : _RGBTOGRAY,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RGBtoGray = _reflection.GeneratedProtocolMessageType('RGBtoGray', (_message.Message,), dict(
+  DESCRIPTOR = _RGBTOGRAY,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RGBtoGray)
-  })
+  ))
 _sym_db.RegisterMessage(RGBtoGray)
 
-ScaleBoxesToPixelCoordinates = _reflection.GeneratedProtocolMessageType('ScaleBoxesToPixelCoordinates', (_message.Message,), {
-  'DESCRIPTOR' : _SCALEBOXESTOPIXELCOORDINATES,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+ScaleBoxesToPixelCoordinates = _reflection.GeneratedProtocolMessageType('ScaleBoxesToPixelCoordinates', (_message.Message,), dict(
+  DESCRIPTOR = _SCALEBOXESTOPIXELCOORDINATES,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ScaleBoxesToPixelCoordinates)
-  })
+  ))
 _sym_db.RegisterMessage(ScaleBoxesToPixelCoordinates)
 
-ResizeImage = _reflection.GeneratedProtocolMessageType('ResizeImage', (_message.Message,), {
-  'DESCRIPTOR' : _RESIZEIMAGE,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+ResizeImage = _reflection.GeneratedProtocolMessageType('ResizeImage', (_message.Message,), dict(
+  DESCRIPTOR = _RESIZEIMAGE,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ResizeImage)
-  })
+  ))
 _sym_db.RegisterMessage(ResizeImage)
 
-SubtractChannelMean = _reflection.GeneratedProtocolMessageType('SubtractChannelMean', (_message.Message,), {
-  'DESCRIPTOR' : _SUBTRACTCHANNELMEAN,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+SubtractChannelMean = _reflection.GeneratedProtocolMessageType('SubtractChannelMean', (_message.Message,), dict(
+  DESCRIPTOR = _SUBTRACTCHANNELMEAN,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SubtractChannelMean)
-  })
+  ))
 _sym_db.RegisterMessage(SubtractChannelMean)
 
-SSDRandomCropOperation = _reflection.GeneratedProtocolMessageType('SSDRandomCropOperation', (_message.Message,), {
-  'DESCRIPTOR' : _SSDRANDOMCROPOPERATION,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+SSDRandomCropOperation = _reflection.GeneratedProtocolMessageType('SSDRandomCropOperation', (_message.Message,), dict(
+  DESCRIPTOR = _SSDRANDOMCROPOPERATION,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SSDRandomCropOperation)
-  })
+  ))
 _sym_db.RegisterMessage(SSDRandomCropOperation)
 
-SSDRandomCrop = _reflection.GeneratedProtocolMessageType('SSDRandomCrop', (_message.Message,), {
-  'DESCRIPTOR' : _SSDRANDOMCROP,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+SSDRandomCrop = _reflection.GeneratedProtocolMessageType('SSDRandomCrop', (_message.Message,), dict(
+  DESCRIPTOR = _SSDRANDOMCROP,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SSDRandomCrop)
-  })
+  ))
 _sym_db.RegisterMessage(SSDRandomCrop)
 
-SSDRandomCropPadOperation = _reflection.GeneratedProtocolMessageType('SSDRandomCropPadOperation', (_message.Message,), {
-  'DESCRIPTOR' : _SSDRANDOMCROPPADOPERATION,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+SSDRandomCropPadOperation = _reflection.GeneratedProtocolMessageType('SSDRandomCropPadOperation', (_message.Message,), dict(
+  DESCRIPTOR = _SSDRANDOMCROPPADOPERATION,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SSDRandomCropPadOperation)
-  })
+  ))
 _sym_db.RegisterMessage(SSDRandomCropPadOperation)
 
-SSDRandomCropPad = _reflection.GeneratedProtocolMessageType('SSDRandomCropPad', (_message.Message,), {
-  'DESCRIPTOR' : _SSDRANDOMCROPPAD,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+SSDRandomCropPad = _reflection.GeneratedProtocolMessageType('SSDRandomCropPad', (_message.Message,), dict(
+  DESCRIPTOR = _SSDRANDOMCROPPAD,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SSDRandomCropPad)
-  })
+  ))
 _sym_db.RegisterMessage(SSDRandomCropPad)
 
-SSDRandomCropFixedAspectRatioOperation = _reflection.GeneratedProtocolMessageType('SSDRandomCropFixedAspectRatioOperation', (_message.Message,), {
-  'DESCRIPTOR' : _SSDRANDOMCROPFIXEDASPECTRATIOOPERATION,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+SSDRandomCropFixedAspectRatioOperation = _reflection.GeneratedProtocolMessageType('SSDRandomCropFixedAspectRatioOperation', (_message.Message,), dict(
+  DESCRIPTOR = _SSDRANDOMCROPFIXEDASPECTRATIOOPERATION,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SSDRandomCropFixedAspectRatioOperation)
-  })
+  ))
 _sym_db.RegisterMessage(SSDRandomCropFixedAspectRatioOperation)
 
-SSDRandomCropFixedAspectRatio = _reflection.GeneratedProtocolMessageType('SSDRandomCropFixedAspectRatio', (_message.Message,), {
-  'DESCRIPTOR' : _SSDRANDOMCROPFIXEDASPECTRATIO,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+SSDRandomCropFixedAspectRatio = _reflection.GeneratedProtocolMessageType('SSDRandomCropFixedAspectRatio', (_message.Message,), dict(
+  DESCRIPTOR = _SSDRANDOMCROPFIXEDASPECTRATIO,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SSDRandomCropFixedAspectRatio)
-  })
+  ))
 _sym_db.RegisterMessage(SSDRandomCropFixedAspectRatio)
 
-SSDRandomCropPadFixedAspectRatioOperation = _reflection.GeneratedProtocolMessageType('SSDRandomCropPadFixedAspectRatioOperation', (_message.Message,), {
-  'DESCRIPTOR' : _SSDRANDOMCROPPADFIXEDASPECTRATIOOPERATION,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+SSDRandomCropPadFixedAspectRatioOperation = _reflection.GeneratedProtocolMessageType('SSDRandomCropPadFixedAspectRatioOperation', (_message.Message,), dict(
+  DESCRIPTOR = _SSDRANDOMCROPPADFIXEDASPECTRATIOOPERATION,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SSDRandomCropPadFixedAspectRatioOperation)
-  })
+  ))
 _sym_db.RegisterMessage(SSDRandomCropPadFixedAspectRatioOperation)
 
-SSDRandomCropPadFixedAspectRatio = _reflection.GeneratedProtocolMessageType('SSDRandomCropPadFixedAspectRatio', (_message.Message,), {
-  'DESCRIPTOR' : _SSDRANDOMCROPPADFIXEDASPECTRATIO,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+SSDRandomCropPadFixedAspectRatio = _reflection.GeneratedProtocolMessageType('SSDRandomCropPadFixedAspectRatio', (_message.Message,), dict(
+  DESCRIPTOR = _SSDRANDOMCROPPADFIXEDASPECTRATIO,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SSDRandomCropPadFixedAspectRatio)
-  })
+  ))
 _sym_db.RegisterMessage(SSDRandomCropPadFixedAspectRatio)
 
-ConvertClassLogitsToSoftmax = _reflection.GeneratedProtocolMessageType('ConvertClassLogitsToSoftmax', (_message.Message,), {
-  'DESCRIPTOR' : _CONVERTCLASSLOGITSTOSOFTMAX,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+ConvertClassLogitsToSoftmax = _reflection.GeneratedProtocolMessageType('ConvertClassLogitsToSoftmax', (_message.Message,), dict(
+  DESCRIPTOR = _CONVERTCLASSLOGITSTOSOFTMAX,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ConvertClassLogitsToSoftmax)
-  })
+  ))
 _sym_db.RegisterMessage(ConvertClassLogitsToSoftmax)
 
-RandomSelfConcatImage = _reflection.GeneratedProtocolMessageType('RandomSelfConcatImage', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMSELFCONCATIMAGE,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RandomSelfConcatImage = _reflection.GeneratedProtocolMessageType('RandomSelfConcatImage', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMSELFCONCATIMAGE,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomSelfConcatImage)
-  })
+  ))
 _sym_db.RegisterMessage(RandomSelfConcatImage)
 
-AutoAugmentImage = _reflection.GeneratedProtocolMessageType('AutoAugmentImage', (_message.Message,), {
-  'DESCRIPTOR' : _AUTOAUGMENTIMAGE,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+AutoAugmentImage = _reflection.GeneratedProtocolMessageType('AutoAugmentImage', (_message.Message,), dict(
+  DESCRIPTOR = _AUTOAUGMENTIMAGE,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.AutoAugmentImage)
-  })
+  ))
 _sym_db.RegisterMessage(AutoAugmentImage)
 
-DropLabelProbabilistically = _reflection.GeneratedProtocolMessageType('DropLabelProbabilistically', (_message.Message,), {
-  'DESCRIPTOR' : _DROPLABELPROBABILISTICALLY,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+DropLabelProbabilistically = _reflection.GeneratedProtocolMessageType('DropLabelProbabilistically', (_message.Message,), dict(
+  DESCRIPTOR = _DROPLABELPROBABILISTICALLY,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.DropLabelProbabilistically)
-  })
+  ))
 _sym_db.RegisterMessage(DropLabelProbabilistically)
 
-RemapLabels = _reflection.GeneratedProtocolMessageType('RemapLabels', (_message.Message,), {
-  'DESCRIPTOR' : _REMAPLABELS,
-  '__module__' : 'object_detection.protos.preprocessor_pb2'
+RemapLabels = _reflection.GeneratedProtocolMessageType('RemapLabels', (_message.Message,), dict(
+  DESCRIPTOR = _REMAPLABELS,
+  __module__ = 'object_detection.protos.preprocessor_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RemapLabels)
-  })
+  ))
 _sym_db.RegisterMessage(RemapLabels)
 
 

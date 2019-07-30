@@ -80,11 +80,11 @@ _FASTERRCNNBOXCODER = _descriptor.Descriptor(
 DESCRIPTOR.message_types_by_name['FasterRcnnBoxCoder'] = _FASTERRCNNBOXCODER
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-FasterRcnnBoxCoder = _reflection.GeneratedProtocolMessageType('FasterRcnnBoxCoder', (_message.Message,), {
-  'DESCRIPTOR' : _FASTERRCNNBOXCODER,
-  '__module__' : 'object_detection.protos.faster_rcnn_box_coder_pb2'
+FasterRcnnBoxCoder = _reflection.GeneratedProtocolMessageType('FasterRcnnBoxCoder', (_message.Message,), dict(
+  DESCRIPTOR = _FASTERRCNNBOXCODER,
+  __module__ = 'object_detection.protos.faster_rcnn_box_coder_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.FasterRcnnBoxCoder)
-  })
+  ))
 _sym_db.RegisterMessage(FasterRcnnBoxCoder)
 
 

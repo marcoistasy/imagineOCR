@@ -73,11 +73,11 @@ _SQUAREBOXCODER = _descriptor.Descriptor(
 DESCRIPTOR.message_types_by_name['SquareBoxCoder'] = _SQUAREBOXCODER
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-SquareBoxCoder = _reflection.GeneratedProtocolMessageType('SquareBoxCoder', (_message.Message,), {
-  'DESCRIPTOR' : _SQUAREBOXCODER,
-  '__module__' : 'object_detection.protos.square_box_coder_pb2'
+SquareBoxCoder = _reflection.GeneratedProtocolMessageType('SquareBoxCoder', (_message.Message,), dict(
+  DESCRIPTOR = _SQUAREBOXCODER,
+  __module__ = 'object_detection.protos.square_box_coder_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SquareBoxCoder)
-  })
+  ))
 _sym_db.RegisterMessage(SquareBoxCoder)
 
 

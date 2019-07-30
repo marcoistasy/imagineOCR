@@ -104,11 +104,11 @@ _ANCHORGENERATOR.fields_by_name['flexible_grid_anchor_generator'].containing_one
 DESCRIPTOR.message_types_by_name['AnchorGenerator'] = _ANCHORGENERATOR
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-AnchorGenerator = _reflection.GeneratedProtocolMessageType('AnchorGenerator', (_message.Message,), {
-  'DESCRIPTOR' : _ANCHORGENERATOR,
-  '__module__' : 'object_detection.protos.anchor_generator_pb2'
+AnchorGenerator = _reflection.GeneratedProtocolMessageType('AnchorGenerator', (_message.Message,), dict(
+  DESCRIPTOR = _ANCHORGENERATOR,
+  __module__ = 'object_detection.protos.anchor_generator_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.AnchorGenerator)
-  })
+  ))
 _sym_db.RegisterMessage(AnchorGenerator)
 
 

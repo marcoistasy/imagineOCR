@@ -113,18 +113,18 @@ DESCRIPTOR.message_types_by_name['GraphRewriter'] = _GRAPHREWRITER
 DESCRIPTOR.message_types_by_name['Quantization'] = _QUANTIZATION
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-GraphRewriter = _reflection.GeneratedProtocolMessageType('GraphRewriter', (_message.Message,), {
-  'DESCRIPTOR' : _GRAPHREWRITER,
-  '__module__' : 'object_detection.protos.graph_rewriter_pb2'
+GraphRewriter = _reflection.GeneratedProtocolMessageType('GraphRewriter', (_message.Message,), dict(
+  DESCRIPTOR = _GRAPHREWRITER,
+  __module__ = 'object_detection.protos.graph_rewriter_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.GraphRewriter)
-  })
+  ))
 _sym_db.RegisterMessage(GraphRewriter)
 
-Quantization = _reflection.GeneratedProtocolMessageType('Quantization', (_message.Message,), {
-  'DESCRIPTOR' : _QUANTIZATION,
-  '__module__' : 'object_detection.protos.graph_rewriter_pb2'
+Quantization = _reflection.GeneratedProtocolMessageType('Quantization', (_message.Message,), dict(
+  DESCRIPTOR = _QUANTIZATION,
+  __module__ = 'object_detection.protos.graph_rewriter_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.Quantization)
-  })
+  ))
 _sym_db.RegisterMessage(Quantization)
 
 

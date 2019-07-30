@@ -59,11 +59,11 @@ _BIPARTITEMATCHER = _descriptor.Descriptor(
 DESCRIPTOR.message_types_by_name['BipartiteMatcher'] = _BIPARTITEMATCHER
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-BipartiteMatcher = _reflection.GeneratedProtocolMessageType('BipartiteMatcher', (_message.Message,), {
-  'DESCRIPTOR' : _BIPARTITEMATCHER,
-  '__module__' : 'object_detection.protos.bipartite_matcher_pb2'
+BipartiteMatcher = _reflection.GeneratedProtocolMessageType('BipartiteMatcher', (_message.Message,), dict(
+  DESCRIPTOR = _BIPARTITEMATCHER,
+  __module__ = 'object_detection.protos.bipartite_matcher_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.BipartiteMatcher)
-  })
+  ))
 _sym_db.RegisterMessage(BipartiteMatcher)
 
 

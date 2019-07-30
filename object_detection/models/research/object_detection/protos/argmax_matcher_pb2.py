@@ -94,11 +94,11 @@ _ARGMAXMATCHER = _descriptor.Descriptor(
 DESCRIPTOR.message_types_by_name['ArgMaxMatcher'] = _ARGMAXMATCHER
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-ArgMaxMatcher = _reflection.GeneratedProtocolMessageType('ArgMaxMatcher', (_message.Message,), {
-  'DESCRIPTOR' : _ARGMAXMATCHER,
-  '__module__' : 'object_detection.protos.argmax_matcher_pb2'
+ArgMaxMatcher = _reflection.GeneratedProtocolMessageType('ArgMaxMatcher', (_message.Message,), dict(
+  DESCRIPTOR = _ARGMAXMATCHER,
+  __module__ = 'object_detection.protos.argmax_matcher_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ArgMaxMatcher)
-  })
+  ))
 _sym_db.RegisterMessage(ArgMaxMatcher)
 
 

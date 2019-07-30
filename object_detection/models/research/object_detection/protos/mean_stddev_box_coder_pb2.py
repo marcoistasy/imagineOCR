@@ -59,11 +59,11 @@ _MEANSTDDEVBOXCODER = _descriptor.Descriptor(
 DESCRIPTOR.message_types_by_name['MeanStddevBoxCoder'] = _MEANSTDDEVBOXCODER
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-MeanStddevBoxCoder = _reflection.GeneratedProtocolMessageType('MeanStddevBoxCoder', (_message.Message,), {
-  'DESCRIPTOR' : _MEANSTDDEVBOXCODER,
-  '__module__' : 'object_detection.protos.mean_stddev_box_coder_pb2'
+MeanStddevBoxCoder = _reflection.GeneratedProtocolMessageType('MeanStddevBoxCoder', (_message.Message,), dict(
+  DESCRIPTOR = _MEANSTDDEVBOXCODER,
+  __module__ = 'object_detection.protos.mean_stddev_box_coder_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.MeanStddevBoxCoder)
-  })
+  ))
 _sym_db.RegisterMessage(MeanStddevBoxCoder)
 
 

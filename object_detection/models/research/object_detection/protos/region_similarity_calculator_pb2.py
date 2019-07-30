@@ -206,39 +206,39 @@ DESCRIPTOR.message_types_by_name['IoaSimilarity'] = _IOASIMILARITY
 DESCRIPTOR.message_types_by_name['ThresholdedIouSimilarity'] = _THRESHOLDEDIOUSIMILARITY
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-RegionSimilarityCalculator = _reflection.GeneratedProtocolMessageType('RegionSimilarityCalculator', (_message.Message,), {
-  'DESCRIPTOR' : _REGIONSIMILARITYCALCULATOR,
-  '__module__' : 'object_detection.protos.region_similarity_calculator_pb2'
+RegionSimilarityCalculator = _reflection.GeneratedProtocolMessageType('RegionSimilarityCalculator', (_message.Message,), dict(
+  DESCRIPTOR = _REGIONSIMILARITYCALCULATOR,
+  __module__ = 'object_detection.protos.region_similarity_calculator_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RegionSimilarityCalculator)
-  })
+  ))
 _sym_db.RegisterMessage(RegionSimilarityCalculator)
 
-NegSqDistSimilarity = _reflection.GeneratedProtocolMessageType('NegSqDistSimilarity', (_message.Message,), {
-  'DESCRIPTOR' : _NEGSQDISTSIMILARITY,
-  '__module__' : 'object_detection.protos.region_similarity_calculator_pb2'
+NegSqDistSimilarity = _reflection.GeneratedProtocolMessageType('NegSqDistSimilarity', (_message.Message,), dict(
+  DESCRIPTOR = _NEGSQDISTSIMILARITY,
+  __module__ = 'object_detection.protos.region_similarity_calculator_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.NegSqDistSimilarity)
-  })
+  ))
 _sym_db.RegisterMessage(NegSqDistSimilarity)
 
-IouSimilarity = _reflection.GeneratedProtocolMessageType('IouSimilarity', (_message.Message,), {
-  'DESCRIPTOR' : _IOUSIMILARITY,
-  '__module__' : 'object_detection.protos.region_similarity_calculator_pb2'
+IouSimilarity = _reflection.GeneratedProtocolMessageType('IouSimilarity', (_message.Message,), dict(
+  DESCRIPTOR = _IOUSIMILARITY,
+  __module__ = 'object_detection.protos.region_similarity_calculator_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.IouSimilarity)
-  })
+  ))
 _sym_db.RegisterMessage(IouSimilarity)
 
-IoaSimilarity = _reflection.GeneratedProtocolMessageType('IoaSimilarity', (_message.Message,), {
-  'DESCRIPTOR' : _IOASIMILARITY,
-  '__module__' : 'object_detection.protos.region_similarity_calculator_pb2'
+IoaSimilarity = _reflection.GeneratedProtocolMessageType('IoaSimilarity', (_message.Message,), dict(
+  DESCRIPTOR = _IOASIMILARITY,
+  __module__ = 'object_detection.protos.region_similarity_calculator_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.IoaSimilarity)
-  })
+  ))
 _sym_db.RegisterMessage(IoaSimilarity)
 
-ThresholdedIouSimilarity = _reflection.GeneratedProtocolMessageType('ThresholdedIouSimilarity', (_message.Message,), {
-  'DESCRIPTOR' : _THRESHOLDEDIOUSIMILARITY,
-  '__module__' : 'object_detection.protos.region_similarity_calculator_pb2'
+ThresholdedIouSimilarity = _reflection.GeneratedProtocolMessageType('ThresholdedIouSimilarity', (_message.Message,), dict(
+  DESCRIPTOR = _THRESHOLDEDIOUSIMILARITY,
+  __module__ = 'object_detection.protos.region_similarity_calculator_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ThresholdedIouSimilarity)
-  })
+  ))
 _sym_db.RegisterMessage(ThresholdedIouSimilarity)
 
 

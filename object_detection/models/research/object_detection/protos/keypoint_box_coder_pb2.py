@@ -87,11 +87,11 @@ _KEYPOINTBOXCODER = _descriptor.Descriptor(
 DESCRIPTOR.message_types_by_name['KeypointBoxCoder'] = _KEYPOINTBOXCODER
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-KeypointBoxCoder = _reflection.GeneratedProtocolMessageType('KeypointBoxCoder', (_message.Message,), {
-  'DESCRIPTOR' : _KEYPOINTBOXCODER,
-  '__module__' : 'object_detection.protos.keypoint_box_coder_pb2'
+KeypointBoxCoder = _reflection.GeneratedProtocolMessageType('KeypointBoxCoder', (_message.Message,), dict(
+  DESCRIPTOR = _KEYPOINTBOXCODER,
+  __module__ = 'object_detection.protos.keypoint_box_coder_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.KeypointBoxCoder)
-  })
+  ))
 _sym_db.RegisterMessage(KeypointBoxCoder)
 
 

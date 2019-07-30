@@ -194,18 +194,18 @@ DESCRIPTOR.message_types_by_name['BatchNonMaxSuppression'] = _BATCHNONMAXSUPPRES
 DESCRIPTOR.message_types_by_name['PostProcessing'] = _POSTPROCESSING
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-BatchNonMaxSuppression = _reflection.GeneratedProtocolMessageType('BatchNonMaxSuppression', (_message.Message,), {
-  'DESCRIPTOR' : _BATCHNONMAXSUPPRESSION,
-  '__module__' : 'object_detection.protos.post_processing_pb2'
+BatchNonMaxSuppression = _reflection.GeneratedProtocolMessageType('BatchNonMaxSuppression', (_message.Message,), dict(
+  DESCRIPTOR = _BATCHNONMAXSUPPRESSION,
+  __module__ = 'object_detection.protos.post_processing_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.BatchNonMaxSuppression)
-  })
+  ))
 _sym_db.RegisterMessage(BatchNonMaxSuppression)
 
-PostProcessing = _reflection.GeneratedProtocolMessageType('PostProcessing', (_message.Message,), {
-  'DESCRIPTOR' : _POSTPROCESSING,
-  '__module__' : 'object_detection.protos.post_processing_pb2'
+PostProcessing = _reflection.GeneratedProtocolMessageType('PostProcessing', (_message.Message,), dict(
+  DESCRIPTOR = _POSTPROCESSING,
+  __module__ = 'object_detection.protos.post_processing_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.PostProcessing)
-  })
+  ))
 _sym_db.RegisterMessage(PostProcessing)
 
 

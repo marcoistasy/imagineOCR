@@ -220,11 +220,11 @@ _EVALCONFIG = _descriptor.Descriptor(
 DESCRIPTOR.message_types_by_name['EvalConfig'] = _EVALCONFIG
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-EvalConfig = _reflection.GeneratedProtocolMessageType('EvalConfig', (_message.Message,), {
-  'DESCRIPTOR' : _EVALCONFIG,
-  '__module__' : 'object_detection.protos.eval_pb2'
+EvalConfig = _reflection.GeneratedProtocolMessageType('EvalConfig', (_message.Message,), dict(
+  DESCRIPTOR = _EVALCONFIG,
+  __module__ = 'object_detection.protos.eval_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.EvalConfig)
-  })
+  ))
 _sym_db.RegisterMessage(EvalConfig)
 
 

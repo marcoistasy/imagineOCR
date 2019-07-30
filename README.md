@@ -3,6 +3,8 @@
     <img src="Resources/Banner.png" width="890" alt="Logo"/>
 </p>
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 Imagine-OCR is a smart and trainable OCR built of Tensorflow neural networks. By inputting the orthography 
 
 ## Getting Started
@@ -63,13 +65,13 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [Tensorflow](https://www.tensorflow.org)
-* [Tesnsorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
+* [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 * [LabelImg](https://github.com/tzutalin/labelImg)
 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/marcoistasy/imagine-ocr/blob/master/CONTRIBUTING.md) for the process for submitting pull requests to us. Also make sure to read our code of [CODE_OF_CONDUCT.md](https://github.com/marcoistasy/imagine-ocr/blob/master/CODE_OF_CONDUCT.md)
 
 ## Versioning
 
@@ -88,4 +90,3 @@ Released under the [GLP-3.0](LICENSE.md) license.
 ## Acknowledgments
 
 * Sincerest thanks to Kieren Nicôlas and Stephen Lovell for their continued support and unwavering belief in the project.
-* 

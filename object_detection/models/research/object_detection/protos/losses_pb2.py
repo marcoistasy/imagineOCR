@@ -757,103 +757,103 @@ DESCRIPTOR.message_types_by_name['HardExampleMiner'] = _HARDEXAMPLEMINER
 DESCRIPTOR.message_types_by_name['RandomExampleSampler'] = _RANDOMEXAMPLESAMPLER
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-Loss = _reflection.GeneratedProtocolMessageType('Loss', (_message.Message,), {
+Loss = _reflection.GeneratedProtocolMessageType('Loss', (_message.Message,), dict(
 
-  'EqualizationLoss' : _reflection.GeneratedProtocolMessageType('EqualizationLoss', (_message.Message,), {
-    'DESCRIPTOR' : _LOSS_EQUALIZATIONLOSS,
-    '__module__' : 'object_detection.protos.losses_pb2'
+  EqualizationLoss = _reflection.GeneratedProtocolMessageType('EqualizationLoss', (_message.Message,), dict(
+    DESCRIPTOR = _LOSS_EQUALIZATIONLOSS,
+    __module__ = 'object_detection.protos.losses_pb2'
     # @@protoc_insertion_point(class_scope:object_detection.protos.Loss.EqualizationLoss)
-    })
+    ))
   ,
-  'DESCRIPTOR' : _LOSS,
-  '__module__' : 'object_detection.protos.losses_pb2'
+  DESCRIPTOR = _LOSS,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.Loss)
-  })
+  ))
 _sym_db.RegisterMessage(Loss)
 _sym_db.RegisterMessage(Loss.EqualizationLoss)
 
-LocalizationLoss = _reflection.GeneratedProtocolMessageType('LocalizationLoss', (_message.Message,), {
-  'DESCRIPTOR' : _LOCALIZATIONLOSS,
-  '__module__' : 'object_detection.protos.losses_pb2'
+LocalizationLoss = _reflection.GeneratedProtocolMessageType('LocalizationLoss', (_message.Message,), dict(
+  DESCRIPTOR = _LOCALIZATIONLOSS,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.LocalizationLoss)
-  })
+  ))
 _sym_db.RegisterMessage(LocalizationLoss)
 
-WeightedL2LocalizationLoss = _reflection.GeneratedProtocolMessageType('WeightedL2LocalizationLoss', (_message.Message,), {
-  'DESCRIPTOR' : _WEIGHTEDL2LOCALIZATIONLOSS,
-  '__module__' : 'object_detection.protos.losses_pb2'
+WeightedL2LocalizationLoss = _reflection.GeneratedProtocolMessageType('WeightedL2LocalizationLoss', (_message.Message,), dict(
+  DESCRIPTOR = _WEIGHTEDL2LOCALIZATIONLOSS,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.WeightedL2LocalizationLoss)
-  })
+  ))
 _sym_db.RegisterMessage(WeightedL2LocalizationLoss)
 
-WeightedSmoothL1LocalizationLoss = _reflection.GeneratedProtocolMessageType('WeightedSmoothL1LocalizationLoss', (_message.Message,), {
-  'DESCRIPTOR' : _WEIGHTEDSMOOTHL1LOCALIZATIONLOSS,
-  '__module__' : 'object_detection.protos.losses_pb2'
+WeightedSmoothL1LocalizationLoss = _reflection.GeneratedProtocolMessageType('WeightedSmoothL1LocalizationLoss', (_message.Message,), dict(
+  DESCRIPTOR = _WEIGHTEDSMOOTHL1LOCALIZATIONLOSS,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.WeightedSmoothL1LocalizationLoss)
-  })
+  ))
 _sym_db.RegisterMessage(WeightedSmoothL1LocalizationLoss)
 
-WeightedIOULocalizationLoss = _reflection.GeneratedProtocolMessageType('WeightedIOULocalizationLoss', (_message.Message,), {
-  'DESCRIPTOR' : _WEIGHTEDIOULOCALIZATIONLOSS,
-  '__module__' : 'object_detection.protos.losses_pb2'
+WeightedIOULocalizationLoss = _reflection.GeneratedProtocolMessageType('WeightedIOULocalizationLoss', (_message.Message,), dict(
+  DESCRIPTOR = _WEIGHTEDIOULOCALIZATIONLOSS,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.WeightedIOULocalizationLoss)
-  })
+  ))
 _sym_db.RegisterMessage(WeightedIOULocalizationLoss)
 
-ClassificationLoss = _reflection.GeneratedProtocolMessageType('ClassificationLoss', (_message.Message,), {
-  'DESCRIPTOR' : _CLASSIFICATIONLOSS,
-  '__module__' : 'object_detection.protos.losses_pb2'
+ClassificationLoss = _reflection.GeneratedProtocolMessageType('ClassificationLoss', (_message.Message,), dict(
+  DESCRIPTOR = _CLASSIFICATIONLOSS,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ClassificationLoss)
-  })
+  ))
 _sym_db.RegisterMessage(ClassificationLoss)
 
-WeightedSigmoidClassificationLoss = _reflection.GeneratedProtocolMessageType('WeightedSigmoidClassificationLoss', (_message.Message,), {
-  'DESCRIPTOR' : _WEIGHTEDSIGMOIDCLASSIFICATIONLOSS,
-  '__module__' : 'object_detection.protos.losses_pb2'
+WeightedSigmoidClassificationLoss = _reflection.GeneratedProtocolMessageType('WeightedSigmoidClassificationLoss', (_message.Message,), dict(
+  DESCRIPTOR = _WEIGHTEDSIGMOIDCLASSIFICATIONLOSS,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.WeightedSigmoidClassificationLoss)
-  })
+  ))
 _sym_db.RegisterMessage(WeightedSigmoidClassificationLoss)
 
-SigmoidFocalClassificationLoss = _reflection.GeneratedProtocolMessageType('SigmoidFocalClassificationLoss', (_message.Message,), {
-  'DESCRIPTOR' : _SIGMOIDFOCALCLASSIFICATIONLOSS,
-  '__module__' : 'object_detection.protos.losses_pb2'
+SigmoidFocalClassificationLoss = _reflection.GeneratedProtocolMessageType('SigmoidFocalClassificationLoss', (_message.Message,), dict(
+  DESCRIPTOR = _SIGMOIDFOCALCLASSIFICATIONLOSS,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SigmoidFocalClassificationLoss)
-  })
+  ))
 _sym_db.RegisterMessage(SigmoidFocalClassificationLoss)
 
-WeightedSoftmaxClassificationLoss = _reflection.GeneratedProtocolMessageType('WeightedSoftmaxClassificationLoss', (_message.Message,), {
-  'DESCRIPTOR' : _WEIGHTEDSOFTMAXCLASSIFICATIONLOSS,
-  '__module__' : 'object_detection.protos.losses_pb2'
+WeightedSoftmaxClassificationLoss = _reflection.GeneratedProtocolMessageType('WeightedSoftmaxClassificationLoss', (_message.Message,), dict(
+  DESCRIPTOR = _WEIGHTEDSOFTMAXCLASSIFICATIONLOSS,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.WeightedSoftmaxClassificationLoss)
-  })
+  ))
 _sym_db.RegisterMessage(WeightedSoftmaxClassificationLoss)
 
-WeightedSoftmaxClassificationAgainstLogitsLoss = _reflection.GeneratedProtocolMessageType('WeightedSoftmaxClassificationAgainstLogitsLoss', (_message.Message,), {
-  'DESCRIPTOR' : _WEIGHTEDSOFTMAXCLASSIFICATIONAGAINSTLOGITSLOSS,
-  '__module__' : 'object_detection.protos.losses_pb2'
+WeightedSoftmaxClassificationAgainstLogitsLoss = _reflection.GeneratedProtocolMessageType('WeightedSoftmaxClassificationAgainstLogitsLoss', (_message.Message,), dict(
+  DESCRIPTOR = _WEIGHTEDSOFTMAXCLASSIFICATIONAGAINSTLOGITSLOSS,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.WeightedSoftmaxClassificationAgainstLogitsLoss)
-  })
+  ))
 _sym_db.RegisterMessage(WeightedSoftmaxClassificationAgainstLogitsLoss)
 
-BootstrappedSigmoidClassificationLoss = _reflection.GeneratedProtocolMessageType('BootstrappedSigmoidClassificationLoss', (_message.Message,), {
-  'DESCRIPTOR' : _BOOTSTRAPPEDSIGMOIDCLASSIFICATIONLOSS,
-  '__module__' : 'object_detection.protos.losses_pb2'
+BootstrappedSigmoidClassificationLoss = _reflection.GeneratedProtocolMessageType('BootstrappedSigmoidClassificationLoss', (_message.Message,), dict(
+  DESCRIPTOR = _BOOTSTRAPPEDSIGMOIDCLASSIFICATIONLOSS,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.BootstrappedSigmoidClassificationLoss)
-  })
+  ))
 _sym_db.RegisterMessage(BootstrappedSigmoidClassificationLoss)
 
-HardExampleMiner = _reflection.GeneratedProtocolMessageType('HardExampleMiner', (_message.Message,), {
-  'DESCRIPTOR' : _HARDEXAMPLEMINER,
-  '__module__' : 'object_detection.protos.losses_pb2'
+HardExampleMiner = _reflection.GeneratedProtocolMessageType('HardExampleMiner', (_message.Message,), dict(
+  DESCRIPTOR = _HARDEXAMPLEMINER,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.HardExampleMiner)
-  })
+  ))
 _sym_db.RegisterMessage(HardExampleMiner)
 
-RandomExampleSampler = _reflection.GeneratedProtocolMessageType('RandomExampleSampler', (_message.Message,), {
-  'DESCRIPTOR' : _RANDOMEXAMPLESAMPLER,
-  '__module__' : 'object_detection.protos.losses_pb2'
+RandomExampleSampler = _reflection.GeneratedProtocolMessageType('RandomExampleSampler', (_message.Message,), dict(
+  DESCRIPTOR = _RANDOMEXAMPLESAMPLER,
+  __module__ = 'object_detection.protos.losses_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RandomExampleSampler)
-  })
+  ))
 _sym_db.RegisterMessage(RandomExampleSampler)
 
 

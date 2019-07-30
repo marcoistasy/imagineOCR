@@ -459,77 +459,77 @@ DESCRIPTOR.message_types_by_name['SigmoidParameters'] = _SIGMOIDPARAMETERS
 DESCRIPTOR.enum_types_by_name['TrainingDataType'] = _TRAININGDATATYPE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-CalibrationConfig = _reflection.GeneratedProtocolMessageType('CalibrationConfig', (_message.Message,), {
-  'DESCRIPTOR' : _CALIBRATIONCONFIG,
-  '__module__' : 'object_detection.protos.calibration_pb2'
+CalibrationConfig = _reflection.GeneratedProtocolMessageType('CalibrationConfig', (_message.Message,), dict(
+  DESCRIPTOR = _CALIBRATIONCONFIG,
+  __module__ = 'object_detection.protos.calibration_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.CalibrationConfig)
-  })
+  ))
 _sym_db.RegisterMessage(CalibrationConfig)
 
-FunctionApproximation = _reflection.GeneratedProtocolMessageType('FunctionApproximation', (_message.Message,), {
-  'DESCRIPTOR' : _FUNCTIONAPPROXIMATION,
-  '__module__' : 'object_detection.protos.calibration_pb2'
+FunctionApproximation = _reflection.GeneratedProtocolMessageType('FunctionApproximation', (_message.Message,), dict(
+  DESCRIPTOR = _FUNCTIONAPPROXIMATION,
+  __module__ = 'object_detection.protos.calibration_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.FunctionApproximation)
-  })
+  ))
 _sym_db.RegisterMessage(FunctionApproximation)
 
-ClassIdFunctionApproximations = _reflection.GeneratedProtocolMessageType('ClassIdFunctionApproximations', (_message.Message,), {
+ClassIdFunctionApproximations = _reflection.GeneratedProtocolMessageType('ClassIdFunctionApproximations', (_message.Message,), dict(
 
-  'ClassIdXyPairsMapEntry' : _reflection.GeneratedProtocolMessageType('ClassIdXyPairsMapEntry', (_message.Message,), {
-    'DESCRIPTOR' : _CLASSIDFUNCTIONAPPROXIMATIONS_CLASSIDXYPAIRSMAPENTRY,
-    '__module__' : 'object_detection.protos.calibration_pb2'
+  ClassIdXyPairsMapEntry = _reflection.GeneratedProtocolMessageType('ClassIdXyPairsMapEntry', (_message.Message,), dict(
+    DESCRIPTOR = _CLASSIDFUNCTIONAPPROXIMATIONS_CLASSIDXYPAIRSMAPENTRY,
+    __module__ = 'object_detection.protos.calibration_pb2'
     # @@protoc_insertion_point(class_scope:object_detection.protos.ClassIdFunctionApproximations.ClassIdXyPairsMapEntry)
-    })
+    ))
   ,
-  'DESCRIPTOR' : _CLASSIDFUNCTIONAPPROXIMATIONS,
-  '__module__' : 'object_detection.protos.calibration_pb2'
+  DESCRIPTOR = _CLASSIDFUNCTIONAPPROXIMATIONS,
+  __module__ = 'object_detection.protos.calibration_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ClassIdFunctionApproximations)
-  })
+  ))
 _sym_db.RegisterMessage(ClassIdFunctionApproximations)
 _sym_db.RegisterMessage(ClassIdFunctionApproximations.ClassIdXyPairsMapEntry)
 
-SigmoidCalibration = _reflection.GeneratedProtocolMessageType('SigmoidCalibration', (_message.Message,), {
-  'DESCRIPTOR' : _SIGMOIDCALIBRATION,
-  '__module__' : 'object_detection.protos.calibration_pb2'
+SigmoidCalibration = _reflection.GeneratedProtocolMessageType('SigmoidCalibration', (_message.Message,), dict(
+  DESCRIPTOR = _SIGMOIDCALIBRATION,
+  __module__ = 'object_detection.protos.calibration_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SigmoidCalibration)
-  })
+  ))
 _sym_db.RegisterMessage(SigmoidCalibration)
 
-ClassIdSigmoidCalibrations = _reflection.GeneratedProtocolMessageType('ClassIdSigmoidCalibrations', (_message.Message,), {
+ClassIdSigmoidCalibrations = _reflection.GeneratedProtocolMessageType('ClassIdSigmoidCalibrations', (_message.Message,), dict(
 
-  'ClassIdSigmoidParametersMapEntry' : _reflection.GeneratedProtocolMessageType('ClassIdSigmoidParametersMapEntry', (_message.Message,), {
-    'DESCRIPTOR' : _CLASSIDSIGMOIDCALIBRATIONS_CLASSIDSIGMOIDPARAMETERSMAPENTRY,
-    '__module__' : 'object_detection.protos.calibration_pb2'
+  ClassIdSigmoidParametersMapEntry = _reflection.GeneratedProtocolMessageType('ClassIdSigmoidParametersMapEntry', (_message.Message,), dict(
+    DESCRIPTOR = _CLASSIDSIGMOIDCALIBRATIONS_CLASSIDSIGMOIDPARAMETERSMAPENTRY,
+    __module__ = 'object_detection.protos.calibration_pb2'
     # @@protoc_insertion_point(class_scope:object_detection.protos.ClassIdSigmoidCalibrations.ClassIdSigmoidParametersMapEntry)
-    })
+    ))
   ,
-  'DESCRIPTOR' : _CLASSIDSIGMOIDCALIBRATIONS,
-  '__module__' : 'object_detection.protos.calibration_pb2'
+  DESCRIPTOR = _CLASSIDSIGMOIDCALIBRATIONS,
+  __module__ = 'object_detection.protos.calibration_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ClassIdSigmoidCalibrations)
-  })
+  ))
 _sym_db.RegisterMessage(ClassIdSigmoidCalibrations)
 _sym_db.RegisterMessage(ClassIdSigmoidCalibrations.ClassIdSigmoidParametersMapEntry)
 
-XYPairs = _reflection.GeneratedProtocolMessageType('XYPairs', (_message.Message,), {
+XYPairs = _reflection.GeneratedProtocolMessageType('XYPairs', (_message.Message,), dict(
 
-  'XYPair' : _reflection.GeneratedProtocolMessageType('XYPair', (_message.Message,), {
-    'DESCRIPTOR' : _XYPAIRS_XYPAIR,
-    '__module__' : 'object_detection.protos.calibration_pb2'
+  XYPair = _reflection.GeneratedProtocolMessageType('XYPair', (_message.Message,), dict(
+    DESCRIPTOR = _XYPAIRS_XYPAIR,
+    __module__ = 'object_detection.protos.calibration_pb2'
     # @@protoc_insertion_point(class_scope:object_detection.protos.XYPairs.XYPair)
-    })
+    ))
   ,
-  'DESCRIPTOR' : _XYPAIRS,
-  '__module__' : 'object_detection.protos.calibration_pb2'
+  DESCRIPTOR = _XYPAIRS,
+  __module__ = 'object_detection.protos.calibration_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.XYPairs)
-  })
+  ))
 _sym_db.RegisterMessage(XYPairs)
 _sym_db.RegisterMessage(XYPairs.XYPair)
 
-SigmoidParameters = _reflection.GeneratedProtocolMessageType('SigmoidParameters', (_message.Message,), {
-  'DESCRIPTOR' : _SIGMOIDPARAMETERS,
-  '__module__' : 'object_detection.protos.calibration_pb2'
+SigmoidParameters = _reflection.GeneratedProtocolMessageType('SigmoidParameters', (_message.Message,), dict(
+  DESCRIPTOR = _SIGMOIDPARAMETERS,
+  __module__ = 'object_detection.protos.calibration_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.SigmoidParameters)
-  })
+  ))
 _sym_db.RegisterMessage(SigmoidParameters)
 
 

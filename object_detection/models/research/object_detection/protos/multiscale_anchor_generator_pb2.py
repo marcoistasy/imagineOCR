@@ -94,11 +94,11 @@ _MULTISCALEANCHORGENERATOR = _descriptor.Descriptor(
 DESCRIPTOR.message_types_by_name['MultiscaleAnchorGenerator'] = _MULTISCALEANCHORGENERATOR
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-MultiscaleAnchorGenerator = _reflection.GeneratedProtocolMessageType('MultiscaleAnchorGenerator', (_message.Message,), {
-  'DESCRIPTOR' : _MULTISCALEANCHORGENERATOR,
-  '__module__' : 'object_detection.protos.multiscale_anchor_generator_pb2'
+MultiscaleAnchorGenerator = _reflection.GeneratedProtocolMessageType('MultiscaleAnchorGenerator', (_message.Message,), dict(
+  DESCRIPTOR = _MULTISCALEANCHORGENERATOR,
+  __module__ = 'object_detection.protos.multiscale_anchor_generator_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.MultiscaleAnchorGenerator)
-  })
+  ))
 _sym_db.RegisterMessage(MultiscaleAnchorGenerator)
 
 

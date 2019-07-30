@@ -104,11 +104,11 @@ _BOXCODER.fields_by_name['keypoint_box_coder'].containing_oneof = _BOXCODER.oneo
 DESCRIPTOR.message_types_by_name['BoxCoder'] = _BOXCODER
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-BoxCoder = _reflection.GeneratedProtocolMessageType('BoxCoder', (_message.Message,), {
-  'DESCRIPTOR' : _BOXCODER,
-  '__module__' : 'object_detection.protos.box_coder_pb2'
+BoxCoder = _reflection.GeneratedProtocolMessageType('BoxCoder', (_message.Message,), dict(
+  DESCRIPTOR = _BOXCODER,
+  __module__ = 'object_detection.protos.box_coder_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.BoxCoder)
-  })
+  ))
 _sym_db.RegisterMessage(BoxCoder)
 
 

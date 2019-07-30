@@ -366,39 +366,39 @@ DESCRIPTOR.message_types_by_name['ConditionalShapeResizer'] = _CONDITIONALSHAPER
 DESCRIPTOR.enum_types_by_name['ResizeType'] = _RESIZETYPE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-ImageResizer = _reflection.GeneratedProtocolMessageType('ImageResizer', (_message.Message,), {
-  'DESCRIPTOR' : _IMAGERESIZER,
-  '__module__' : 'object_detection.protos.image_resizer_pb2'
+ImageResizer = _reflection.GeneratedProtocolMessageType('ImageResizer', (_message.Message,), dict(
+  DESCRIPTOR = _IMAGERESIZER,
+  __module__ = 'object_detection.protos.image_resizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ImageResizer)
-  })
+  ))
 _sym_db.RegisterMessage(ImageResizer)
 
-IdentityResizer = _reflection.GeneratedProtocolMessageType('IdentityResizer', (_message.Message,), {
-  'DESCRIPTOR' : _IDENTITYRESIZER,
-  '__module__' : 'object_detection.protos.image_resizer_pb2'
+IdentityResizer = _reflection.GeneratedProtocolMessageType('IdentityResizer', (_message.Message,), dict(
+  DESCRIPTOR = _IDENTITYRESIZER,
+  __module__ = 'object_detection.protos.image_resizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.IdentityResizer)
-  })
+  ))
 _sym_db.RegisterMessage(IdentityResizer)
 
-KeepAspectRatioResizer = _reflection.GeneratedProtocolMessageType('KeepAspectRatioResizer', (_message.Message,), {
-  'DESCRIPTOR' : _KEEPASPECTRATIORESIZER,
-  '__module__' : 'object_detection.protos.image_resizer_pb2'
+KeepAspectRatioResizer = _reflection.GeneratedProtocolMessageType('KeepAspectRatioResizer', (_message.Message,), dict(
+  DESCRIPTOR = _KEEPASPECTRATIORESIZER,
+  __module__ = 'object_detection.protos.image_resizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.KeepAspectRatioResizer)
-  })
+  ))
 _sym_db.RegisterMessage(KeepAspectRatioResizer)
 
-FixedShapeResizer = _reflection.GeneratedProtocolMessageType('FixedShapeResizer', (_message.Message,), {
-  'DESCRIPTOR' : _FIXEDSHAPERESIZER,
-  '__module__' : 'object_detection.protos.image_resizer_pb2'
+FixedShapeResizer = _reflection.GeneratedProtocolMessageType('FixedShapeResizer', (_message.Message,), dict(
+  DESCRIPTOR = _FIXEDSHAPERESIZER,
+  __module__ = 'object_detection.protos.image_resizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.FixedShapeResizer)
-  })
+  ))
 _sym_db.RegisterMessage(FixedShapeResizer)
 
-ConditionalShapeResizer = _reflection.GeneratedProtocolMessageType('ConditionalShapeResizer', (_message.Message,), {
-  'DESCRIPTOR' : _CONDITIONALSHAPERESIZER,
-  '__module__' : 'object_detection.protos.image_resizer_pb2'
+ConditionalShapeResizer = _reflection.GeneratedProtocolMessageType('ConditionalShapeResizer', (_message.Message,), dict(
+  DESCRIPTOR = _CONDITIONALSHAPERESIZER,
+  __module__ = 'object_detection.protos.image_resizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ConditionalShapeResizer)
-  })
+  ))
 _sym_db.RegisterMessage(ConditionalShapeResizer)
 
 

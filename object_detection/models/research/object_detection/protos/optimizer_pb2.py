@@ -552,75 +552,75 @@ DESCRIPTOR.message_types_by_name['ManualStepLearningRate'] = _MANUALSTEPLEARNING
 DESCRIPTOR.message_types_by_name['CosineDecayLearningRate'] = _COSINEDECAYLEARNINGRATE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-Optimizer = _reflection.GeneratedProtocolMessageType('Optimizer', (_message.Message,), {
-  'DESCRIPTOR' : _OPTIMIZER,
-  '__module__' : 'object_detection.protos.optimizer_pb2'
+Optimizer = _reflection.GeneratedProtocolMessageType('Optimizer', (_message.Message,), dict(
+  DESCRIPTOR = _OPTIMIZER,
+  __module__ = 'object_detection.protos.optimizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.Optimizer)
-  })
+  ))
 _sym_db.RegisterMessage(Optimizer)
 
-RMSPropOptimizer = _reflection.GeneratedProtocolMessageType('RMSPropOptimizer', (_message.Message,), {
-  'DESCRIPTOR' : _RMSPROPOPTIMIZER,
-  '__module__' : 'object_detection.protos.optimizer_pb2'
+RMSPropOptimizer = _reflection.GeneratedProtocolMessageType('RMSPropOptimizer', (_message.Message,), dict(
+  DESCRIPTOR = _RMSPROPOPTIMIZER,
+  __module__ = 'object_detection.protos.optimizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.RMSPropOptimizer)
-  })
+  ))
 _sym_db.RegisterMessage(RMSPropOptimizer)
 
-MomentumOptimizer = _reflection.GeneratedProtocolMessageType('MomentumOptimizer', (_message.Message,), {
-  'DESCRIPTOR' : _MOMENTUMOPTIMIZER,
-  '__module__' : 'object_detection.protos.optimizer_pb2'
+MomentumOptimizer = _reflection.GeneratedProtocolMessageType('MomentumOptimizer', (_message.Message,), dict(
+  DESCRIPTOR = _MOMENTUMOPTIMIZER,
+  __module__ = 'object_detection.protos.optimizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.MomentumOptimizer)
-  })
+  ))
 _sym_db.RegisterMessage(MomentumOptimizer)
 
-AdamOptimizer = _reflection.GeneratedProtocolMessageType('AdamOptimizer', (_message.Message,), {
-  'DESCRIPTOR' : _ADAMOPTIMIZER,
-  '__module__' : 'object_detection.protos.optimizer_pb2'
+AdamOptimizer = _reflection.GeneratedProtocolMessageType('AdamOptimizer', (_message.Message,), dict(
+  DESCRIPTOR = _ADAMOPTIMIZER,
+  __module__ = 'object_detection.protos.optimizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.AdamOptimizer)
-  })
+  ))
 _sym_db.RegisterMessage(AdamOptimizer)
 
-LearningRate = _reflection.GeneratedProtocolMessageType('LearningRate', (_message.Message,), {
-  'DESCRIPTOR' : _LEARNINGRATE,
-  '__module__' : 'object_detection.protos.optimizer_pb2'
+LearningRate = _reflection.GeneratedProtocolMessageType('LearningRate', (_message.Message,), dict(
+  DESCRIPTOR = _LEARNINGRATE,
+  __module__ = 'object_detection.protos.optimizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.LearningRate)
-  })
+  ))
 _sym_db.RegisterMessage(LearningRate)
 
-ConstantLearningRate = _reflection.GeneratedProtocolMessageType('ConstantLearningRate', (_message.Message,), {
-  'DESCRIPTOR' : _CONSTANTLEARNINGRATE,
-  '__module__' : 'object_detection.protos.optimizer_pb2'
+ConstantLearningRate = _reflection.GeneratedProtocolMessageType('ConstantLearningRate', (_message.Message,), dict(
+  DESCRIPTOR = _CONSTANTLEARNINGRATE,
+  __module__ = 'object_detection.protos.optimizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ConstantLearningRate)
-  })
+  ))
 _sym_db.RegisterMessage(ConstantLearningRate)
 
-ExponentialDecayLearningRate = _reflection.GeneratedProtocolMessageType('ExponentialDecayLearningRate', (_message.Message,), {
-  'DESCRIPTOR' : _EXPONENTIALDECAYLEARNINGRATE,
-  '__module__' : 'object_detection.protos.optimizer_pb2'
+ExponentialDecayLearningRate = _reflection.GeneratedProtocolMessageType('ExponentialDecayLearningRate', (_message.Message,), dict(
+  DESCRIPTOR = _EXPONENTIALDECAYLEARNINGRATE,
+  __module__ = 'object_detection.protos.optimizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ExponentialDecayLearningRate)
-  })
+  ))
 _sym_db.RegisterMessage(ExponentialDecayLearningRate)
 
-ManualStepLearningRate = _reflection.GeneratedProtocolMessageType('ManualStepLearningRate', (_message.Message,), {
+ManualStepLearningRate = _reflection.GeneratedProtocolMessageType('ManualStepLearningRate', (_message.Message,), dict(
 
-  'LearningRateSchedule' : _reflection.GeneratedProtocolMessageType('LearningRateSchedule', (_message.Message,), {
-    'DESCRIPTOR' : _MANUALSTEPLEARNINGRATE_LEARNINGRATESCHEDULE,
-    '__module__' : 'object_detection.protos.optimizer_pb2'
+  LearningRateSchedule = _reflection.GeneratedProtocolMessageType('LearningRateSchedule', (_message.Message,), dict(
+    DESCRIPTOR = _MANUALSTEPLEARNINGRATE_LEARNINGRATESCHEDULE,
+    __module__ = 'object_detection.protos.optimizer_pb2'
     # @@protoc_insertion_point(class_scope:object_detection.protos.ManualStepLearningRate.LearningRateSchedule)
-    })
+    ))
   ,
-  'DESCRIPTOR' : _MANUALSTEPLEARNINGRATE,
-  '__module__' : 'object_detection.protos.optimizer_pb2'
+  DESCRIPTOR = _MANUALSTEPLEARNINGRATE,
+  __module__ = 'object_detection.protos.optimizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.ManualStepLearningRate)
-  })
+  ))
 _sym_db.RegisterMessage(ManualStepLearningRate)
 _sym_db.RegisterMessage(ManualStepLearningRate.LearningRateSchedule)
 
-CosineDecayLearningRate = _reflection.GeneratedProtocolMessageType('CosineDecayLearningRate', (_message.Message,), {
-  'DESCRIPTOR' : _COSINEDECAYLEARNINGRATE,
-  '__module__' : 'object_detection.protos.optimizer_pb2'
+CosineDecayLearningRate = _reflection.GeneratedProtocolMessageType('CosineDecayLearningRate', (_message.Message,), dict(
+  DESCRIPTOR = _COSINEDECAYLEARNINGRATE,
+  __module__ = 'object_detection.protos.optimizer_pb2'
   # @@protoc_insertion_point(class_scope:object_detection.protos.CosineDecayLearningRate)
-  })
+  ))
 _sym_db.RegisterMessage(CosineDecayLearningRate)
 
 
