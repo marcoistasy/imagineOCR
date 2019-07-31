@@ -22,7 +22,7 @@ configuring the training job:
 can be specified by --pipeline_config_path.
 
 Example usage:
-    ./train \
+    python train.py \
         --logtostderr \
         --train_dir=path/to/train_dir \
         --pipeline_config_path=pipeline_config.pbtxt

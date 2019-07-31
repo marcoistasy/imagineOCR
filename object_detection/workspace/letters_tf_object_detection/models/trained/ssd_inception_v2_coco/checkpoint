@@ -1,0 +1,6 @@
+model_checkpoint_path: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/ssd_inception_v2_coco/model.ckpt-846"
+all_model_checkpoint_paths: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/ssd_inception_v2_coco/model.ckpt-667"
+all_model_checkpoint_paths: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/ssd_inception_v2_coco/model.ckpt-711"
+all_model_checkpoint_paths: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/ssd_inception_v2_coco/model.ckpt-756"
+all_model_checkpoint_paths: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/ssd_inception_v2_coco/model.ckpt-801"
+all_model_checkpoint_paths: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/ssd_inception_v2_coco/model.ckpt-846"
