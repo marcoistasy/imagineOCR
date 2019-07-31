@@ -1,0 +1,4 @@
+model_checkpoint_path: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/faster_rcnn_resnet50/model.ckpt-99"
+all_model_checkpoint_paths: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/faster_rcnn_resnet50/model.ckpt-0"
+all_model_checkpoint_paths: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/faster_rcnn_resnet50/model.ckpt-47"
+all_model_checkpoint_paths: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/faster_rcnn_resnet50/model.ckpt-99"
