@@ -28,7 +28,7 @@ flags.DEFINE_string('img_path', '', 'Path to images')
 FLAGS = flags.FLAGS
 
 
-# TO-DO replace this with label map
+# todo replace this with label map
 # for multiple labels add more else if statements
 def class_text_to_int(row_label):
     if row_label == 'o':  # 'ship':

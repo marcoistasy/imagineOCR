@@ -62,11 +62,6 @@ Notes:
 
 Example Usage:
 --------------
-python export_inference_graph.py \
-    --input_type image_tensor \
-    --pipeline_config_path /Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters/models/training/trained_letter_o_one/pipeline.config \
-    --trained_checkpoint_prefix /Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters/models/training/trained_letter_o_one/model.ckpt-205 \
-    --output_directory /Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters/models/training/trained_letter_o_one
 
 python export_inference_graph.py \
     --input_type image_tensor \
