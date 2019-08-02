@@ -1,3 +1,0 @@
-model_checkpoint_path: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/faster_rcnn_inception_resnet_v2_atrous_coco/model.ckpt-11"
-all_model_checkpoint_paths: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/faster_rcnn_inception_resnet_v2_atrous_coco/model.ckpt-0"
-all_model_checkpoint_paths: "/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters_tf_object_detection/models/trained/faster_rcnn_inception_resnet_v2_atrous_coco/model.ckpt-11"

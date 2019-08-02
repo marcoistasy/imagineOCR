@@ -172,5 +172,3 @@ ipython_config.py
 
 .dmypy.json
 dmypy.json
-
-object_detection/workspace/letters_tf_object_detection/models
