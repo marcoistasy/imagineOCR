@@ -7,7 +7,7 @@ import logging
 
 import numpy as np
 
-from image_classification import image_preprocessing
+import image_preprocessing
 
 DATA_DIRECTORY = 'data/Model_Data'  # Path to the directory that holds the data
 

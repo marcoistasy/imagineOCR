@@ -11,7 +11,7 @@ import os
 
 #%%
 
-DATA_DIRECTORY = '/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/test_images'
+DATA_DIRECTORY = '/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/test'
 
 
 for image in os.listdir(DATA_DIRECTORY):

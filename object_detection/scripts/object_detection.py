@@ -1,7 +1,6 @@
 #%%
 
 # --------- Imports ---------
-
 import numpy as np
 import os
 import tensorflow as tf
@@ -44,7 +43,7 @@ with detection_graph.as_default():
 
 # todo change detection variables
 
-PATH_TO_TEST_IMAGES_DIR = '/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/test_images'
+PATH_TO_TEST_IMAGES_DIR = '/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/test'
 TEST_IMAGE_PATHS = [os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image{}.jpg'.format(i)) for i in range(1, 2)]
 IMAGE_SIZE = (12, 8)  # Size, in inches, of the output images.
 
