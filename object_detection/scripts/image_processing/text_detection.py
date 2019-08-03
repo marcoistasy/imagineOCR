@@ -1,15 +1,18 @@
 #%%
-
-# import the necessary packages
+# -----IMPORTS-----
 
 import numpy as np
 import cv2 as cv
+import matplotlib.pyplot as plt
 
-from object_detection.utils.im_utils.py
+from utils.im_utils import non_max_suppression
 
-#%%
+
+# -----FUNCTION-----
 
 def decode_predictions(scores, geometry):
+    # this function decodes the predictions given by EAST
+
     # grab the number of rows and columns from the scores volume, then
     # initialize our set of bounding box rectangles and corresponding
     # confidence scores
@@ -33,7 +36,7 @@ def decode_predictions(scores, geometry):
         for x in range(0, numCols):
             # if our score does not have sufficient probability,
             # ignore it
-            if scores_data[x] < 80:  # todo change confidence interval
+            if scores_data[x] < 0.1:
                 continue
 
             # compute the offset factor as our resulting feature
@@ -67,24 +70,24 @@ def decode_predictions(scores, geometry):
     return rects, confidences
 
 
-# ----- LOAD + PREPROCESS IMAGE-------
+# -----IMAGE PROCESSING-----
 
 # load the input image and grab the image dimensions
-image = cv.imread('')  # todo change the image path
+image = cv.imread('/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagine-ocr/object_detection/example_data/test/image1.jpg')
 orig = image.copy()
-origH, origW = image.shape[:2]
+(origH, origW) = image.shape[:2]
 
 # set the new width and height and then determine the ratio in change
 # for both the width and height
-newW, newH = (32, 32)  # todo detector requires multiple of 32 for resized
+(newW, newH) = (2560, 2560)
 rW = origW / float(newW)
 rH = origH / float(newH)
 
 # resize the image and grab the new image dimensions
 image = cv.resize(image, (newW, newH))
-H, W = image.shape[:2]
+(H, W) = image.shape[:2]
 
-# ----- EAST TEXT DETECTOR -------
+# -----EAST-----
 
 # define the two output layer names for the EAST detector model that
 # we are interested in -- the first is the output probabilities and the
@@ -92,20 +95,20 @@ H, W = image.shape[:2]
 layerNames = ["feature_fusion/Conv_7/Sigmoid", "feature_fusion/concat_3"]
 
 # load the pre-trained EAST text detector
-net = cv.dnn.readNet('/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/letters_tf_object_detection/frozen_east_text_detection.pb')
-
-# ----- DETERMINE TEXT LOCATION -------
+net = cv.dnn.readNet('/Users/marcoistasy/Documents/Coding/Cambridge_2019/trained_models/frozen_east_text_detection.pb')
 
 # construct a blob from the image and then perform a forward pass of
 # the model to obtain the two output layer sets
 blob = cv.dnn.blobFromImage(image, 1.0, (W, H), (123.68, 116.78, 103.94), swapRB=True, crop=False)
 net.setInput(blob)
-scores, geometry = net.forward(layerNames)
+(scores, geometry) = net.forward(layerNames)
 
 # decode the predictions, then  apply non-maxima suppression to
 # suppress weak, overlapping bounding boxes
 (rects, confidences) = decode_predictions(scores, geometry)
-boxes = non_max_suppression(np.array(rects), probs=confidences)  # RETURNS THE VALUES OF THE BOXES WITH TEXT
+boxes = non_max_suppression(np.array(rects), probs=confidences)
+
+# -----BOUNDING BOXES-----
 
 # initialize the list of results
 results = []
@@ -122,8 +125,8 @@ for (startX, startY, endX, endY) in boxes:
     # in order to obtain a better OCR of the text we can potentially
     # apply a bit of padding surrounding the bounding box -- here we
     # are computing the deltas in both the x and y directions
-    dX = int((endX - startX) * 1)  # todo change padding
-    dY = int((endY - startY) * 1)  # todo change padding
+    dX = int((endX - startX) * 0.1)  # todo change padding
+    dY = int((endY - startY) * 0.1)  # todo change padding
 
     # apply padding to each side of the bounding box, respectively
     startX = max(0, startX - dX)
@@ -131,7 +134,26 @@ for (startX, startY, endX, endY) in boxes:
     endX = min(origW, endX + (dX * 2))
     endY = min(origH, endY + (dY * 2))
 
-    roi = orig[startY:endY, startX:endX]  # extract the actual padded ROI
+    # extract the actual padded ROI
+    roi = orig[startY:endY, startX:endX]
 
-    results.append(roi)  # add the extracted ROI to a results variable
+    results.append((startX, startY, endX, endY))
 
+# -----DISPLAY ROI ON IMAGE-----
+
+# sort the results bounding box coordinates from top to bottom
+# results = sorted(results, key=lambda r:r[0][1])
+
+output = orig.copy()
+
+# loop over the results
+for (startX, startY, endX, endY) in results:
+    # display the bounding boxes
+
+    # using OpenCV, then draw the bounding box surrounding
+    # the text region of the input image
+    cv.rectangle(output, (startX, startY), (endX, endY), (0, 0, 255), 2)
+
+# show the output image
+plt.imshow(output)
+plt.show()
