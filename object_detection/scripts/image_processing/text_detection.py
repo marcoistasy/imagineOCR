@@ -1,76 +1,16 @@
 #%%
-# -----IMPORTS-----
+
+# -----H:IMPORTS-----
 
 import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt
 
 from utils.im_utils import non_max_suppression
+from utils.east_utils import decode_predictions
+from utils.east_utils import redundancy
 
-
-# -----FUNCTION-----
-
-def decode_predictions(scores, geometry):
-    # this function decodes the predictions given by EAST
-
-    # grab the number of rows and columns from the scores volume, then
-    # initialize our set of bounding box rectangles and corresponding
-    # confidence scores
-    (numRows, numCols) = scores.shape[2:4]
-    rects = []
-    confidences = []
-
-    # loop over the number of rows
-    for y in range(0, numRows):
-        # extract the scores (probabilities), followed by the
-        # geometrical data used to derive potential bounding box
-        # coordinates that surround text
-        scores_data = scores[0, 0, y]
-        x_data0 = geometry[0, 0, y]
-        x_data1 = geometry[0, 1, y]
-        x_data2 = geometry[0, 2, y]
-        x_data3 = geometry[0, 3, y]
-        angles_data = geometry[0, 4, y]
-
-        # loop over the number of columns
-        for x in range(0, numCols):
-            # if our score does not have sufficient probability,
-            # ignore it
-            if scores_data[x] < 0.1:
-                continue
-
-            # compute the offset factor as our resulting feature
-            # maps will be 4x smaller than the input image
-            (offsetX, offsetY) = (x * 4.0, y * 4.0)
-
-            # extract the rotation angle for the prediction and
-            # then compute the sin and cosine
-            angle = angles_data[x]
-            cos = np.cos(angle)
-            sin = np.sin(angle)
-
-            # use the geometry volume to derive the width and height
-            # of the bounding box
-            h = x_data0[x] + x_data2[x]
-            w = x_data1[x] + x_data3[x]
-
-            # compute both the starting and ending (x, y)-coordinates
-            # for the text prediction bounding box
-            end_x = int(offsetX + (cos * x_data1[x]) + (sin * x_data2[x]))
-            end_y = int(offsetY - (sin * x_data1[x]) + (cos * x_data2[x]))
-            start_x = int(end_x - w)
-            start_y = int(end_y - h)
-
-            # add the bounding box coordinates and probability score
-            # to our respective lists
-            rects.append((start_x, start_y, end_x, end_y))
-            confidences.append(scores_data[x])
-
-    # return a tuple of the bounding boxes and associated confidences
-    return rects, confidences
-
-
-# -----IMAGE PROCESSING-----
+# -----H:IMAGE PROCESSING-----
 
 # load the input image and grab the image dimensions
 image = cv.imread('/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagine-ocr/object_detection/example_data/test/image1.jpg')
@@ -79,7 +19,7 @@ orig = image.copy()
 
 # set the new width and height and then determine the ratio in change
 # for both the width and height
-(newW, newH) = (2560, 2560)
+(newW, newH) = (1280, 1280)  # todo this can be changed to any multiple of 32
 rW = origW / float(newW)
 rH = origH / float(newH)
 
@@ -87,7 +27,7 @@ rH = origH / float(newH)
 image = cv.resize(image, (newW, newH))
 (H, W) = image.shape[:2]
 
-# -----EAST-----
+# -----H:EAST-----
 
 # define the two output layer names for the EAST detector model that
 # we are interested in -- the first is the output probabilities and the
@@ -95,7 +35,8 @@ image = cv.resize(image, (newW, newH))
 layerNames = ["feature_fusion/Conv_7/Sigmoid", "feature_fusion/concat_3"]
 
 # load the pre-trained EAST text detector
-net = cv.dnn.readNet('/Users/marcoistasy/Documents/Coding/Cambridge_2019/trained_models/frozen_east_text_detection.pb')
+net = cv.dnn.readNet('/Users/marcoistasy/Documents/Coding/Cambridge_2019/EAST/frozen_east_text_detection.pb')
+# todo change location of EAST
 
 # construct a blob from the image and then perform a forward pass of
 # the model to obtain the two output layer sets
@@ -106,9 +47,9 @@ net.setInput(blob)
 # decode the predictions, then  apply non-maxima suppression to
 # suppress weak, overlapping bounding boxes
 (rects, confidences) = decode_predictions(scores, geometry)
-boxes = non_max_suppression(np.array(rects), probs=confidences)
+boxes = non_max_suppression(np.array(rects), probabilities=confidences)
 
-# -----BOUNDING BOXES-----
+# -----H:BOUNDING BOXES-----
 
 # initialize the list of results
 results = []
@@ -137,9 +78,12 @@ for (startX, startY, endX, endY) in boxes:
     # extract the actual padded ROI
     roi = orig[startY:endY, startX:endX]
 
+    # chances that all text will be extracted is low - perform another check with already extracted text erased
+    redundancy()
+
     results.append((startX, startY, endX, endY))
 
-# -----DISPLAY ROI ON IMAGE-----
+# -----H:DISPLAY ROI ON IMAGE-----
 
 # sort the results bounding box coordinates from top to bottom
 # results = sorted(results, key=lambda r:r[0][1])

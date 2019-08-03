@@ -1,8 +1,11 @@
-# import the necessary packages
+# -----IMPORTS-----
+
 import numpy as np
 
 
-def non_max_suppression(boxes, probs=None, overlapThresh=0.3):
+# -----FUNCTIONS-----
+
+def non_max_suppression(boxes, probabilities=None, overlap_thresh=0.3):
     # if there are no boxes, return an empty list
     if len(boxes) == 0:
         return []
@@ -25,41 +28,41 @@ def non_max_suppression(boxes, probs=None, overlapThresh=0.3):
     # (in the case that no probabilities are provided, simply sort on the
     # bottom-left y-coordinate)
     area = (x2 - x1 + 1) * (y2 - y1 + 1)
-    idxs = y2
+    indexes = y2
 
     # if probabilities are provided, sort on them instead
-    if probs is not None:
-        idxs = probs
+    if probabilities is not None:
+        indexes = probabilities
 
     # sort the indexes
-    idxs = np.argsort(idxs)
+    indexes = np.argsort(indexes)
 
     # keep looping while some indexes still remain in the indexes list
-    while len(idxs) > 0:
+    while len(indexes) > 0:
         # grab the last index in the indexes list and add the index value
         # to the list of picked indexes
-        last = len(idxs) - 1
-        i = idxs[last]
+        last = len(indexes) - 1
+        i = indexes[last]
         pick.append(i)
 
         # find the largest (x, y) coordinates for the start of the bounding
         # box and the smallest (x, y) coordinates for the end of the bounding
         # box
-        xx1 = np.maximum(x1[i], x1[idxs[:last]])
-        yy1 = np.maximum(y1[i], y1[idxs[:last]])
-        xx2 = np.minimum(x2[i], x2[idxs[:last]])
-        yy2 = np.minimum(y2[i], y2[idxs[:last]])
+        xx1 = np.maximum(x1[i], x1[indexes[:last]])
+        yy1 = np.maximum(y1[i], y1[indexes[:last]])
+        xx2 = np.minimum(x2[i], x2[indexes[:last]])
+        yy2 = np.minimum(y2[i], y2[indexes[:last]])
 
         # compute the width and height of the bounding box
         w = np.maximum(0, xx2 - xx1 + 1)
         h = np.maximum(0, yy2 - yy1 + 1)
 
         # compute the ratio of overlap
-        overlap = (w * h) / area[idxs[:last]]
+        overlap = (w * h) / area[indexes[:last]]
 
         # delete all indexes from the index list that have overlap greater
         # than the provided overlap threshold
-        idxs = np.delete(idxs, np.concatenate(([last], np.where(overlap > overlapThresh)[0])))
+        indexes = np.delete(indexes, np.concatenate(([last], np.where(overlap > overlap_thresh)[0])))
 
     # return only the bounding boxes that were picked
     return boxes[pick].astype("int")
