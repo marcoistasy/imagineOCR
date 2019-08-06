@@ -35,7 +35,7 @@ See also the list of [contributors](https://github.com/marcoistasy/imagineOCR/gr
 
 ## License
 
-Released under the [GLP-3.0](LICENSE.md) license.
+Released under the [GLP-3.0](https://github.com/marcoistasy/imagineOCR/blob/master/LICENSE) license.
 
 ## Acknowledgments
 
