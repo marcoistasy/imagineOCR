@@ -15,12 +15,10 @@ from object_detection.utils import visualization_utils as vis_util
 if StrictVersion(tf.__version__) < StrictVersion('1.12.0'):
     raise ImportError('Please upgrade your TensorFlow installation to v1.12.*.')
 
-#%%
-
 # -----H:MODEL PREPARATION-----
 
 # path to frozen detection graph. This is the actual model that is used for the object detection.
-PATH_TO_FROZEN_GRAPH = '/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagine-ocr/ssd_mobilenet_v1_coco_2017_11_17/frozen_inference_graph.pb'
+PATH_TO_FROZEN_GRAPH = '/Users/marcoistasy/Documents/Coding/Cambridge_2019/models/research/object_detection/ssd_mobilenet_v1_coco_2017_11_17/frozen_inference_graph.pb'
 
 # list of the strings that is used to add correct label for each box.
 PATH_TO_LABELS = '/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagine-ocr/imagineOCR/example_data/mscoco_label_map.pbtxt'
@@ -38,12 +36,10 @@ with detection_graph.as_default():
         tf.import_graph_def(od_graph_def, name='')
 
 
-#%%
-
 # -----H:DETECTION-----
 
 PATH_TO_TEST_IMAGES_DIR = '/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagine-ocr/imagineOCR/example_data/test_images'
-TEST_IMAGE_PATHS = [os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image{}.jpg'.format(i)) for i in range(1, 2)]
+TEST_IMAGE_PATHS = [os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image{}.jpg'.format(i)) for i in range(1, 3)]
 
 
 def run_inference_for_single_image(image, graph):
@@ -95,9 +91,9 @@ def run_inference_for_single_image(image, graph):
 
 
 for image_path in TEST_IMAGE_PATHS:
-    # the array based representation of the image will be used later in order to prepare the
-    # result image with boxes and labels on it.
+    # get the image from the path and read it as a RGB colour space
     image_np = cv.imread(image_path)
+    image_np = cv.cvtColor(image_np, cv.COLOR_BGR2RGB)
     # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
     image_np_expanded = np.expand_dims(image_np, axis=0)
     # Actual detection.
@@ -112,5 +108,4 @@ for image_path in TEST_IMAGE_PATHS:
         instance_masks=output_dict.get('detection_masks'),
         use_normalized_coordinates=True,
         line_thickness=8)
-    cv.imwrite('Aint a Thing.jpg', image_np)
-
+    cv.imwrite('SHABBA.jpg', image_np)
