@@ -5,9 +5,9 @@
 import numpy as np
 import cv2 as cv
 
-from utils.im_utils import non_max_suppression
-from utils.east_utils import decode_predictions
-from utils.east_utils import redundancy
+from scripts.image_processing.utils.im_utils import non_max_suppression
+from scripts.image_processing.utils.east_utils import decode_predictions
+from scripts.image_processing.utils.east_utils import redundancy
 
 # -----H:IMAGE PROCESSING-----
 

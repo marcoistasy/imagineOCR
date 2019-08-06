@@ -16,11 +16,12 @@ def apply_sobel_y(image):
 
 def apply_otsu_binarization(image):
     # applies an Otsu's binarization on a passed image
-    _, image = cv.threshold(image, 0, 255, cv.THRESH_BINARY_INV+cv.THRESH_OTSU)
+    _, image = cv.threshold(image, 0, 255, cv.THRESH_BINARY+cv.THRESH_OTSU)
     return image
 
 
-def write_new_image(from_path):
-    image = cv.imread(from_path)
-    new_image = apply_otsu_binarization(image)
-    cv.imwrite('/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagine-ocr/object_detection/example_data/test/sobelx', new_image)
+# %%
+
+image = cv.imread('/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/test/shabba.png', 0)
+cv.imwrite('/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/test/image3.png',
+           apply_otsu_binarization(image))
