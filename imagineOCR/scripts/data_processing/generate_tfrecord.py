@@ -1,8 +1,7 @@
 """
 Usage:
 
-# Create train data:
-python generate_tfrecord.py --csv_input=<PATH_TO_ANNOTATIONS_FOLDER>/train_labels.csv --img_path=<PATH_TO_IMAGES_FOLDER>/train --output_path=<PATH_TO_ANNOTATIONS_FOLDER>/train.record
+# Generate for both train and test data
 
 # Create test data:
 python generate_tfrecord.py --csv_input=<PATH_TO_ANNOTATIONS_FOLDER>/test_labels.csv --img_path=<PATH_TO_IMAGES_FOLDER>/test --output_path=<PATH_TO_ANNOTATIONS_FOLDER>/test.record
@@ -31,13 +30,12 @@ FLAGS = flags.FLAGS
 # todo replace this with label map
 # for multiple labels add more else if statements
 def class_text_to_int(row_label):
-    if row_label == 'o':  # 'ship':
+    if row_label == 'o':
         return 1
-    # comment upper if statement and uncomment these statements for multiple labelling
-    # if row_label == FLAGS.label0:
-    #   return 1
-    # elif row_label == FLAGS.label1:
-    #   return 0
+    elif row_label == 'e':
+        return 2
+    elif row_label == 'st':
+        return 3
     else:
         pass  # under no circumstance convert this to an int if the error message TypeError: None has type NoneType,
         # but expected one of: int, long is received. This means that the script cannot make out the row_labels.

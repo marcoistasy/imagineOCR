@@ -20,7 +20,7 @@ if StrictVersion(tf.__version__) < StrictVersion('1.12.0'):
 # -----H:MODEL PREPARATION-----
 
 # path to frozen detection graph. This is the actual model that is used for the object detection.
-PATH_TO_FROZEN_GRAPH = '/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/model/frozen_inference_graph.pb'
+PATH_TO_FROZEN_GRAPH = '/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/model/rfcn_letters_o_st_e/frozen_inference_graph.pb'
 
 # list of the strings that is used to add correct label for each box.
 PATH_TO_LABELS = '/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/annotations/label_map.pbtxt'
@@ -42,7 +42,7 @@ with detection_graph.as_default():
 # -----H:DETECTION-----
 
 PATH_TO_TEST_IMAGE = '/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/test' \
-                     '/image4.png'
+                     '/image3.png'
 
 
 def run_inference_for_single_image(image, graph):
@@ -110,4 +110,6 @@ vis_util.visualize_boxes_and_labels_on_image_array(
     instance_masks=output_dict.get('detection_masks'),
     use_normalized_coordinates=True,
     line_thickness=8)
-cv.imwrite('/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/test/results/Test.png',image_np)
+cv.imwrite('/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/test/Test.png',
+           image_np)
+

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>Image1.png</filename>
-	<path>/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters/images/Image1.png</path>
+	<path>/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/images/Image1.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>464</xmin>
-			<ymin>39</ymin>
-			<xmax>495</xmax>
-			<ymax>81</ymax>
+			<xmin>462</xmin>
+			<ymin>44</ymin>
+			<xmax>496</xmax>
+			<ymax>78</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,9 +29,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>195</xmin>
-			<ymin>115</ymin>
-			<xmax>231</xmax>
+			<xmin>197</xmin>
+			<ymin>118</ymin>
+			<xmax>229</xmax>
 			<ymax>149</ymax>
 		</bndbox>
 	</object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>585</xmin>
-			<ymin>107</ymin>
-			<xmax>619</xmax>
-			<ymax>150</ymax>
+			<xmin>587</xmin>
+			<ymin>113</ymin>
+			<xmax>617</xmax>
+			<ymax>146</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,9 +53,33 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>521</xmin>
-			<ymin>251</ymin>
+			<xmin>520</xmin>
+			<ymin>252</ymin>
 			<xmax>556</xmax>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>st</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>597</xmin>
+			<ymin>20</ymin>
+			<xmax>637</xmax>
+			<ymax>78</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>st</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>365</xmin>
+			<ymin>238</ymin>
+			<xmax>407</xmax>
 			<ymax>288</ymax>
 		</bndbox>
 	</object>

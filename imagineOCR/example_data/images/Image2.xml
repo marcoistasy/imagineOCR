@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>Image2.png</filename>
-	<path>/Users/marcoistasy/Documents/Coding/imagine-ocr/object_detection/workspace/letters/images/Image2.png</path>
+	<path>/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/images/Image2.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>303</xmin>
-			<ymin>101</ymin>
-			<xmax>336</xmax>
-			<ymax>129</ymax>
+			<xmin>152</xmin>
+			<ymin>97</ymin>
+			<xmax>185</xmax>
+			<ymax>131</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>151</xmin>
+			<xmin>302</xmin>
 			<ymin>96</ymin>
-			<xmax>186</xmax>
-			<ymax>133</ymax>
+			<xmax>335</xmax>
+			<ymax>132</ymax>
 		</bndbox>
 	</object>
 </annotation>

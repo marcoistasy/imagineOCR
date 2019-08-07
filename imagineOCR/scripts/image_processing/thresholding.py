@@ -22,6 +22,5 @@ def apply_otsu_binarization(image):
 
 # %%
 
-image = cv.imread('/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/test/shabba.png', 0)
-cv.imwrite('/Users/marcoistasy/Documents/Coding/Cambridge_2019/imagineOCR/imagineOCR/example_data/test/image3.png',
-           apply_otsu_binarization(image))
+image = cv.imread('', 0)
+cv.imwrite('', apply_otsu_binarization(image))
